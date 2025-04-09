@@ -1,5 +1,5 @@
-import { Footer, Layout, Navbar } from 'nextra-theme-docs'
-import { Banner, Head } from 'nextra/components'
+import { Footer, Layout, Navbar, LastUpdated } from 'nextra-theme-docs'
+import { Banner, Head, Search } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
 import Logo from '../components/logo/logo.js'
@@ -9,15 +9,6 @@ export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 }
- 
-const banner = <Banner storageKey="some-key">⚙️ Сайт находится в стадии разработки.</Banner>
-const navbar = (
-  <Navbar
-    logo={<Logo />}
-    // ... Your additional navbar options
-  />
-)
-const footer = <Footer>{<MyFooter />}</Footer>
  
 export default async function RootLayout({ children }) {
   return (
@@ -30,19 +21,26 @@ export default async function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <Head
+				faviconGlyph="🐀"
       // ... Your additional head options
       >
         {/* Your additional tags should be passed as `children` of `<Head>` element */}
       </Head>
       <body>
         <Layout
-          banner={banner}
-          navbar={navbar}
+          banner={<Banner storageKey="some-key">⚙️ Сайт находится в стадии разработки.</Banner>}
+          navbar={<Navbar logo={<Logo />}/>}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
-          footer={footer}
-          // ... Your additional layout options
-        >
+          docsRepositoryBase="https://github.com/pnrf/myrepo-v4"
+          footer={<Footer>{<MyFooter />}</Footer>}
+					search={<Search placeholder="Поиск по сайту..." />}
+					themeSwitch={({dark: 'Темная тема', light: 'Светлая тема', system: 'Системная тема'})}
+					editLink={null}
+					feedback={{content: null}}
+					lastUpdated={<LastUpdated locale="ru">Обновлено:</LastUpdated>}
+					sidebar={{defaultMenuCollapseLevel: 1, autoCollapse: true}}
+					toc={{title: "На странице", backToTop: "Прокрутить вверх"}}
+				>
           {children}
         </Layout>
       </body>
