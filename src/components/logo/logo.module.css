@@ -1,0 +1,49 @@
+.logo__container {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.logo__logomark {
+	width: 38px;
+}
+
+.logo__wordmark-wrapper {
+	display: flex;
+	flex-direction: column;
+	color: #647F94;
+}
+
+.logo__wordmark {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+
+.logo__tagline {
+	font-weight: 400;
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+@media screen and (max-width: 374px) {
+	.logo__wordmark {
+    font-size: 14px;
+  }
+
+  .logo__tagline {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+	.logo__logomark {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 974px) {
+	.logo__wordmark-wrapper {
+		display: none;
+	}
+}
