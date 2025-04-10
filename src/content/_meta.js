@@ -19,5 +19,11 @@ export default {
 	},
 	blog: {
 		title: 'Блог'
+	},
+	contacts: {
+		display: 'hidden'
+	},
+	skills: {
+		display: 'hidden'
 	}
 }
