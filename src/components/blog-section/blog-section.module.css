@@ -1,8 +1,10 @@
 .blog-section {
-	margin-top: 60px;
+	max-width: 832px;
+	margin: 60px auto 0;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	justify-content: center;
+	gap: 6px;
 }
 
 .blog-section__heading {
@@ -48,4 +50,32 @@
 
 .blog-section__link {
 	border-bottom: 1px solid #647F94;
+}
+
+@media screen and (max-width: 925px) {
+	.blog-section__heading {
+		text-align: center;
+	}
+
+	.blog-section__container {
+		justify-content: center;
+	}
+
+	.blog-section__card {
+		max-width: 400px;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1437px) {
+	.blog-section__heading {
+		text-align: center;
+	}
+	
+	.blog-section__container {
+		justify-content: center;
+	}
+
+	.blog-section__card {
+		max-width: 400px;
+	}
 }

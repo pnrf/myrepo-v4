@@ -7,7 +7,8 @@ export default {
 		theme: {
 			pagination: false,
 			sidebar: false,
-			toc: false
+			toc: false,
+			timestamp: false
 		}
 	},
 	projects: {
