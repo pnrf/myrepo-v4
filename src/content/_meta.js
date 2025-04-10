@@ -5,7 +5,6 @@ export default {
 	index: {
 		title: 'Обо мне',
 		theme: {
-			navbar: false,
 			pagination: false,
 			sidebar: false,
 			toc: false
