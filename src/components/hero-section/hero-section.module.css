@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 36px;
+	gap: 20px;
 }
 
 .hero-section__content {
@@ -54,7 +54,6 @@
 	min-width: 270px;
 	width: 100%;
 	display: flex;
-	/* justify-content: center; */
 	gap: 16px;
 }
 
@@ -84,11 +83,13 @@
 @media screen and (min-width: 333px) and (max-width: 925px) {
 	.hero-section {
 		align-items: center;
+		gap: 36px;
 	}
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1437px) {
 	.hero-section {
 		align-items: center;
+		gap: 36px;
 	}
 }
