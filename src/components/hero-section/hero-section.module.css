@@ -72,16 +72,18 @@
 
 
 @media screen and (max-width: 332px) {
-	.hero-section {
-		align-items: center;
-	}
-
 	.hero-section__title {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 925px) {
+	.hero-section {
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1437px) {
 	.hero-section {
 		align-items: center;
 	}
