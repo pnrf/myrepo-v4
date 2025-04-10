@@ -9,6 +9,7 @@
 
 .skills-section__heading {
 	font-size: 28px;
+	font-weight: 600;
 	line-height: 1.2;
 	color: #647F94;
 }
@@ -22,13 +23,15 @@
 
 .skills-section__card {
 	margin-top: 16px;
+	padding: 30px 30px 20px;
 	max-width: 832px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	border: 1px solid #647F94;
 	border-radius: 8px;
-	padding: 20px 20px;
+	background-color: #647F94;
+	color: whitesmoke;
 }
 
 .skills-section__card-list {
@@ -49,7 +52,7 @@
 }
 
 .skills-section__link {
-	border-bottom: 1px solid #647F94;
+	border-bottom: 1px dashed whitesmoke;
 }
 
 @media screen and (max-width: 925px) {

@@ -5,7 +5,7 @@ export default function PortfolioSection() {
 		<section className={styles['portfolio-section']}>
 			<h2 className={styles['portfolio-section__heading']}>Портфолио</h2>
 			<div className={styles['portfolio-section__container']}>
-				<div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
+				<div className={`${styles['portfolio-section__card']}`}>
 					<h3 className={styles['portfolio-section__card-title']}>Проекты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
