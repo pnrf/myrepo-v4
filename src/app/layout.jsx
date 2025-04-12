@@ -46,7 +46,7 @@ export default async function RootLayout({ children }) {
 					themeSwitch={({dark: 'Темная тема', light: 'Светлая тема', system: 'Системная тема'})}
 					editLink={null}
 					feedback={{content: null}}
-					lastUpdated={<LastUpdated locale="ru">Обновлено:</LastUpdated>}
+					lastUpdated={<LastUpdated locale="ru">Обновлено</LastUpdated>}
 					sidebar={{defaultMenuCollapseLevel: 1, autoCollapse: true}}
 					toc={{title: "На странице", backToTop: "Прокрутить вверх"}}
 				>
