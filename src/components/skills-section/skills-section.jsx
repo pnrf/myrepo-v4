@@ -7,11 +7,10 @@ export default function SkillsSection() {
 			<div className={styles['skills-section__container']}>
 				<div className={styles['skills-section__card']}>
 					<ul className={styles['skills-section__card-list']}>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='#'>Документирование программных продуктов</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='#'>Создание контента для интерфейсов и баз знаний</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='#'>Составление юридических документов</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='#'>Публикация документации в интернете</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='#'>Вёрстка сайтов по готовым дизайн-макетам</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/dokumentirovaniye-programmnykh-produktov'>Документирование программных продуктов</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sozdaniye-kontenta'>Создание контента для интерфейсов и баз знаний</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sostavleniye-yuridicheskikh-dokumentov'>Составление юридических документов</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/razrabotka-saytov-s-dokumentatsiyey'>Разработка сайтов с документацией</a></li>
 					</ul>
 					<a href='/skills'>Подробнее →</a>
 				</div>
