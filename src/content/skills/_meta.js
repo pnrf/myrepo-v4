@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'Все умения и навыки',
+		title: 'Моя специализация',
 		theme: {
 			pagination: false
 		}

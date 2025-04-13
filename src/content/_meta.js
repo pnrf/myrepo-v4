@@ -26,6 +26,10 @@ export default {
 		title: 'Навыки',
 		type: 'menu',
     items: {
+			'moya-spetsializatsiya': {
+        title: '→ Моя специализация',
+        href: '/skills'
+			},
       'dokumentirovaniye-programmnykh-produktov': {
         title: '→ Документирование программных продуктов',
         href: '/skills/dokumentirovaniye-programmnykh-produktov'
