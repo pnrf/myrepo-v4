@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'Моя специализация',
+		title: 'Специализация',
 		theme: {
 			pagination: false
 		}
