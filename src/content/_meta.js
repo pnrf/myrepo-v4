@@ -43,7 +43,7 @@ export default {
         href: '/skills/sostavleniye-yuridicheskikh-dokumentov'
 			},
 			'razrabotka-saytov-s-dokumentatsiyey': {
-        title: '→ Разработка сайтов с документацией',
+        title: '→ Вёрстка сайтов с документацией',
         href: '/skills/razrabotka-saytov-s-dokumentatsiyey'
 			}
 		}

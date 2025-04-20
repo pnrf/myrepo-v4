@@ -12,7 +12,7 @@ export default function SkillsSection() {
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sostavleniye-yuridicheskikh-dokumentov'>Составление юридических документов</a></li>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/razrabotka-saytov-s-dokumentatsiyey'>Разработка сайтов с документацией</a></li>
 					</ul>
-					<a href='/skills'>Подробнее →</a>
+					<a href='/skills'>Специализация →</a>
 				</div>
 			</div>
 		</section>
