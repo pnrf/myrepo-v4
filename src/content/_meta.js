@@ -3,6 +3,7 @@ export default {
 		title: 'Обо мне',
 		type: 'page',
 		theme: {
+			layout: 'full',
 			pagination: false,
 			timestamp: false,
 			toc: false
