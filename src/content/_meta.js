@@ -6,28 +6,19 @@ export default {
 			layout: 'full',
 			pagination: false,
 			timestamp: false,
-			toc: false
+			toc: false,
+			sidebar: false
 		}
 	},
 	portfolio: {
 		title: 'Портфолио',
-		type: 'menu',
-    items: {
-      projects: {
-        title: '→ Проекты',
-        href: '/projects'
-			},
-			docs: {
-        title: '→ Документы',
-        href: '/docs'
-			}
-		}
+		type: 'page'
 	},
-		skills: {
+	skills: {
 		title: 'Навыки',
 		type: 'menu',
     items: {
-			'moya-spetsializatsiya': {
+			'index': {
         title: '→ Моя специализация',
         href: '/skills'
 			},
@@ -48,14 +39,6 @@ export default {
         href: '/skills/razrabotka-saytov-s-dokumentatsiyey'
 			}
 		}
-	},
-	projects: {
-		title: 'Проекты',
-		display: 'hidden'
-	},
-	docs: {
-		title: 'Документы',
-		display: 'hidden'
 	},
 	blog: {
 		title: 'Блог',

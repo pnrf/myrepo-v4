@@ -19,23 +19,23 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Участие в конкурсах на получение гранта</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Подготовка к участию в госзакупках</a></li>
 						</ul>
-						<a href='/projects'>Все проекты →</a>
+						<a href='/portfolio/projects'>Все проекты →</a>
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
 					<h3 className={styles['portfolio-section__card-title']}>Документы</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Руководство по эксплуатации ПО</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Описание процессов жизненного цикла</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Описание функциональных характеристик</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Образец лицензионного договора</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Технические условия (ТУ)</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Технические задания (ТЗ, ЧТЗ)</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Дорожная карта по участию в конкурсе</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Сборник историй технических писателей</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/rukovodstvo-po-ekspluatatsii-po'>Руководство по эксплуатации ПО</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/opisaniye-protsessov-zhiznennogo-tsikla'>Описание процессов жизненного цикла</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/opisaniye-funktsionalnykh-kharakteristik'>Описание функциональных характеристик</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/obrazets-litsenzionnogo-dogovora'>Образец лицензионного договора</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/tekhnicheskiye-usloviya'>Технические условия (ТУ)</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/tekhnicheskiye-zadaniya-na-programmnyy-kompleks'>Технические задания (ТЗ, ЧТЗ)</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/dorozhnaya-karta-po-uchastiyu-v-konkurse'>Дорожная карта по участию в конкурсе</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/sbornik-istoriy-tekhpisateley'>Сборник историй технических писателей</a></li>
 						</ul>
-						<a href='/docs'>Все документы →</a>
+						<a href='/portfolio/docs'>Все документы →</a>
 					</div>
 				</div>
 			</div>
