@@ -9,15 +9,13 @@ export default function PortfolioSection() {
 					<h3 className={styles['portfolio-section__card-title']}>Проекты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Разработка ИИ-сервисов</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Автоматизация процесса разработки</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Оптимизация процессов документирования</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Разработка информационной системы</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Регистрация ПО в реестре Минцифры</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Регистрация программ в Росреестре</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Регистрация ПО в Росздравнадзоре</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Участие в конкурсах на получение гранта</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Подготовка к участию в госзакупках</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/razrabotka-ii-servisov'>Разработка ИИ-сервисов</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/razrabotka-meditsinskoy-infosistemy'>Разработка медицинской инфосистемы</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/registratsiya-po-v-reyestre-mintsifry'>Регистрация ПО в реестре Минцифры</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/registratsiya-po-v-rospatente'>Регистрация ПО в Роспатенте</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/registratsiya-po-v-roszdravnadzore'>Регистрация ПО в Росздравнадзоре</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/uchastiye-v-grantovykh-konkursakh'>Участие в грантовых конкурсах</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='portfolio/projects/podgotovka-k-uchastiyu-v-goszakupkakh'>Подготовка к участию в госзакупках</a></li>
 						</ul>
 						<a href='/portfolio/projects'>Все проекты →</a>
 					</div>
