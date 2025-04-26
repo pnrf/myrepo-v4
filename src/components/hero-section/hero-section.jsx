@@ -11,7 +11,7 @@ export default function HeroSection() {
 					<p className={styles['hero-section__text']}>Сделал этот сайт для поиска работы. Собрал на&nbsp;нем свое портфолио и&nbsp;завел блог.</p>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
-					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo/blob/main/images/portfolioPics/hero-section/yup-hero-section-02.png?raw=true" alt="Фоновое фото" />
+					<img className={styles['hero-section__image']} src="/src/images/img-hero-section-01-2.png" alt="Фоновое фото" />
 				</div>
 			</div>
 			<div className={styles['hero-section__buttons']}>
