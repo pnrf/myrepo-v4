@@ -8,10 +8,10 @@ export default function HeroSection() {
 					<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 					<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 					<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года. Разрабатываю техническую и&nbsp;юридическую документацию по&nbsp;программным продуктам. Пишу тексты.</p>
-					<p className={styles['hero-section__text']}>Сделал этот сайт для поиска работы. Собрал на&nbsp;нем свое портфолио и&nbsp;завел блог.</p>
+					<p className={styles['hero-section__text']}>Сделал этот сайт для поиска работы. Собрал на&nbsp;нем свое портфолио, начал вести блог.</p>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
-					<img className={styles['hero-section__image']} src="/src/images/img-hero-section-01-2.png" alt="Фоновое фото" />
+					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-02-2.png?raw=true" alt="Фоновое фото" />
 				</div>
 			</div>
 			<div className={styles['hero-section__buttons']}>
