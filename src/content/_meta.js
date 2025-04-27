@@ -19,7 +19,7 @@ export default {
 		type: 'menu',
     items: {
 			'index': {
-        title: '→ Моя специализация',
+        title: '→ Умения и навыки',
         href: '/skills'
 			},
       'dokumentirovaniye-programmnykh-produktov': {

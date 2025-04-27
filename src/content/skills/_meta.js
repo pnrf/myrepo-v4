@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'Специализация',
+		title: 'Умения и навыки',
 		theme: {
 			pagination: false
 		}
@@ -11,5 +11,6 @@ export default {
 	'dokumentirovaniye-programmnykh-produktov': 'Документирование программных продуктов',
 	'sozdaniye-kontenta': 'Создание контента для интерфейсов и баз знаний',
 	'sostavleniye-yuridicheskikh-dokumentov': 'Составление юридических документов',
-	'razrabotka-saytov-s-dokumentatsiyey': 'Вёрстка сайтов с документацией'
+	'razrabotka-saytov-s-dokumentatsiyey': 'Вёрстка сайтов с документацией',
+	'risovaniye-i-rezba-po-derevu': 'Рисование и резьба по дереву'
 }
