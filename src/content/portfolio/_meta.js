@@ -1,17 +1,28 @@
 export default {
 	index: {
-		title: 'Содержание',
+		title: 'Дисклеймер',
 		theme: {
 			pagination: false
 		}
 	},
 	'---': {
-    type: 'separator'
+    type: 'separator',
+		title: 'Рабочие кейсы'
   },
 	projects: {
 		title: 'Проекты'
 	},
 	docs: {
 		title: 'Документы'
+	},
+	'---examples': {
+    type: 'separator',
+		title: 'Документация'
+  },
+	nextra: {
+		title: 'Nextra 2.x'
+	},
+	diploma: {
+		title: 'Дипломная работа'
 	}
 }

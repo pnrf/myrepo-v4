@@ -7,6 +7,12 @@
 	gap: 20px;
 }
 
+.hero-section__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .hero-section__content {
 	display: flex;
 	flex-wrap: wrap-reverse;
@@ -71,9 +77,9 @@
 
 
 @media screen and (max-width: 332px) {
-	.hero-section {
+	/* .hero-section {
 		align-items: center;
-	}
+	} */
 	
 	.hero-section__title {
 		font-size: 30px;
@@ -84,6 +90,10 @@
 	.hero-section {
 		align-items: center;
 		gap: 36px;
+	}
+
+	.hero-section__buttons {
+		margin-top: 40px;
 	}
 }
 
