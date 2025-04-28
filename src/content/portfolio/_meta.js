@@ -24,5 +24,12 @@ export default {
 	},
 	diploma: {
 		title: 'Дипломная работа'
+	},
+	'---standards': {
+    type: 'separator',
+		title: 'Нормативы'
+  },
+	standards: {
+		title: 'Система ГОСТов'
 	}
 }
