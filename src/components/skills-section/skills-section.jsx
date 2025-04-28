@@ -7,8 +7,8 @@ export default function SkillsSection() {
 			<div className={styles['skills-section__container']}>
 				<div className={styles['skills-section__card']}>
 					<ul className={styles['skills-section__card-list']}>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/dokumentirovaniye-programmnykh-produktov'>Документирование программных продуктов</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sozdaniye-kontenta'>Создание контента для интерфейсов и баз знаний</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/dokumentirovaniye-programmnykh-produktov'>Документирование программ</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sozdaniye-kontenta'>Создание контента для баз знаний</a></li>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/sostavleniye-yuridicheskikh-dokumentov'>Составление юридических документов</a></li>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/razrabotka-saytov-s-dokumentatsiyey'>Вёрстка сайтов и UI-компонентов</a></li>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/skills/risovaniye-i-rezba-po-derevu'>Рисование и резьба по дереву</a></li>
