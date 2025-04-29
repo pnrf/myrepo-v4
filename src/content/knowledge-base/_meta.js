@@ -4,7 +4,7 @@ export default {
 		type: 'separator'
 	},
 	'concepts': 'Концепции',
-	'technologies': 'Технологии',
-	'services': 'Сервисы',
 	'standards': 'Нормативы',
+	'services': 'Сервисы',
+	'technologies': 'Технологии'
 }
