@@ -8,8 +8,10 @@ export default function HeroSection() {
 					<div className={styles['hero-section__text-wrapper']}>
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
-						<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года. Разрабатываю техническую и&nbsp;юридическую документацию. Пишу&nbsp;тексты. Верстаю сайты. Программирую.</p>
-						{/* <p className={styles['hero-section__text']}>Сделал этот сайт для поиска работы. Собрал портфолио и рассказал о себе.</p> */}
+						<div className={styles['hero-section__text-block']}>
+							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года. Разрабатываю техническую и&nbsp;юридическую документацию.</p>
+							<p className={styles['hero-section__text']}>Сделал этот сайт для поиска работы, чтобы общаться с рекрутерами на реальных примерах.</p>
+						</div>
 					</div>
 					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/1gNXqrc9GDDaJc6u33emLr8UHspgW9PDH/view?usp=share_link" target="_blank">Резюме ↗</a>
@@ -17,7 +19,7 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
-					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-02-2.png?raw=true" alt="Фоновое фото" />
+					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-02-2.png?raw=true" alt="Фоновое изображение" />
 				</div>
 			</div>
 		</section>

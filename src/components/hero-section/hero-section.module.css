@@ -37,8 +37,15 @@
 	color: #647F94;
 }
 
+.hero-section__text-block {
+	margin: 26px 0 36px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 .hero-section__text {
-	margin-top: 26px;
+	
 }
 
 .hero-section__image-wrapper {
@@ -90,10 +97,6 @@
 	.hero-section {
 		align-items: center;
 		gap: 36px;
-	}
-
-	.hero-section__buttons {
-		margin-top: 40px;
 	}
 }
 
