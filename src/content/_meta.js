@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'Обо мне',
+		title: 'Главная',
 		type: 'page',
 		display: 'hidden',
 		theme: {
@@ -11,8 +11,8 @@ export default {
 			sidebar: false
 		}
 	},
-	skills: {
-		title: 'Навыки',
+	about: {
+		title: 'Обо мне',
 		type: 'page'
 	},
 	portfolio: {
