@@ -12,6 +12,7 @@ export default {
 	'sozdaniye-kontenta': 'Создание контента для интерфейсов и баз знаний',
 	'sostavleniye-yuridicheskikh-dokumentov': 'Составление юридических документов',
 	'razrabotka-saytov-s-dokumentatsiyey': {
-		title: 'Опубликование документации на сайте'
+		title: 'Опубликование документации на сайте',
+		display: 'hidden'
 	}
 }
