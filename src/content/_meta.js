@@ -13,7 +13,11 @@ export default {
 	},
 	about: {
 		title: 'Обо мне',
-		type: 'page'
+		type: 'page',
+		theme: {
+			pagination: false,
+			sidebar: false
+		}
 	},
 	portfolio: {
 		title: 'Портфолио',
