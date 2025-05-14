@@ -6,7 +6,7 @@ export default {
 		title:  'Разработка ИИ-сервисов'
 	},
 	'razrabotka-meditsinskoy-infosistemy': {
-		title: 'Разработка медицинской инфосистемы'
+		title: 'Проектирование медицинской информационной системы'
 	},
 	'registratsiya-po-v-reyestre-mintsifry': {
 		title: 'Регистрация ПО в реестре Минцифры'
