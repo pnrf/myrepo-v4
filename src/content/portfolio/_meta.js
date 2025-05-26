@@ -26,13 +26,13 @@ export default {
 		title: 'Документация'
   },
 	diploma: {
-		title: 'Дипломная работа',
+		title: 'Movies Explorer Docs',
 		theme: {
 			pagination: false
 		}
 	},
 	nextra: {
-		title: 'Nextra 2.x',
+		title: 'Nextra 2.x Docs',
 		theme: {
 			pagination: false
 		}

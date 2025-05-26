@@ -10,7 +10,6 @@ export default function SkillsSection() {
 						<li className={styles['skills-section__card-list-item']}>Документирую программные продукты</li>
 						<li className={styles['skills-section__card-list-item']}>Создаю контент для интерфейсов и баз знаний</li>
 						<li className={styles['skills-section__card-list-item']}>Составляю юридические документы</li>
-						<li className={styles['skills-section__card-list-item']}>Верстаю сайты с документацией</li>
 						{/* <li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/razrabotka-saytov-s-dokumentatsiyey'>Помогаю публиковать документацию в сети</a></li> */}
 					</ul>
 					<a href='/about'>Подробнее →</a>
