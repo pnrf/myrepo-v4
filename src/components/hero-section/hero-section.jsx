@@ -19,7 +19,7 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
-					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-01.png?raw=true" alt="Фоновое изображение" />
+					<img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-03.png?raw=true" alt="Фоновое изображение" />
 				</div>
 			</div>
 		</section>
