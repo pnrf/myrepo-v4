@@ -9,6 +9,7 @@ export default {
 	'---': {
     type: 'separator'
   },
+	'kak-rabotat-s-yandex-gpt': 'Как работать с YandexGPT',
 	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': 'Виды технической документации',
 	'kak-sdelat-sayt-s-tekhnicheskoy-dokumentatsiyey': 'Как сделать сайт с документацией',
 	'zachem-tekhpisatelyu-sayt-portfolio': 'Зачем техписателю сайт-портфолио',

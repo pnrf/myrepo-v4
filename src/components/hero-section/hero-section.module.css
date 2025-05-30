@@ -44,8 +44,8 @@
 	gap: 20px;
 }
 
-.hero-section__text {
-	
+.hero-section__link {
+	border-bottom: 1px dashed #647F94;
 }
 
 .hero-section__image-wrapper {
