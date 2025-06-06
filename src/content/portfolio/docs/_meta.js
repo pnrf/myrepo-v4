@@ -1,7 +1,8 @@
 export default {
-	'*': {
-		display: 'hidden'
-	},
+		'---tech': {
+    type: 'separator',
+		title: 'Технические'
+  },
 	'rukovodstvo-po-ekspluatatsii-po': {
 		title:  'Руководство по эксплуатации ПО'
 	}, 
@@ -11,12 +12,23 @@ export default {
 	'opisaniye-funktsionalnykh-kharakteristik': {
 		title: 'Описание функциональных характеристик'
 	},
+	'tekhnicheskiye-usloviya': {
+		title: 'Технические условия для ПО'
+	},
+	'tekhnicheskiye-zadaniya-na-programmnyy-kompleks': {
+		title: 'Технические задания на программный комплекс'
+	},
+	'---legal': {
+    type: 'separator',
+		title: 'Юридические'
+  },
 	'obrazets-litsenzionnogo-dogovora': {
 		title: 'Образец лицензионного договора'
 	},
-	'tekhnicheskiye-usloviya': {
-		title: 'Технические условия'
-	},
+	'---other': {
+    type: 'separator',
+		title: 'Прочие'
+  },
 	'dorozhnaya-karta-po-uchastiyu-v-konkurse': {
 		title: 'Дорожная карта по участию в конкурсе'
 	},

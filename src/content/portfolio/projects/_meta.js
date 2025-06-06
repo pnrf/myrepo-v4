@@ -1,13 +1,8 @@
 export default {
-	'*': {
-		display: 'hidden'
-	},
-	'razrabotka-ii-servisov': {
-		title:  'Разработка ИИ-сервисов'
-	},
-	'razrabotka-meditsinskoy-infosistemy': {
-		title: 'Проектирование медицинской информационной системы'
-	},
+		'---commercial': {
+    type: 'separator',
+		title: 'Коммерческие'
+  },
 	'registratsiya-po-v-reyestre-mintsifry': {
 		title: 'Регистрация ПО в реестре Минцифры'
 	},
@@ -23,12 +18,20 @@ export default {
 	'podgotovka-k-uchastiyu-v-goszakupkakh': {
 		title: 'Подготовка к участию в госзакупках'
 	},
+		'---public': {
+    type: 'separator',
+		title: 'Общественные'
+  },
 	'uchastiye-v-obshchestvennykh-meropriyatiyakh': {
 		title: 'Участие в общественных мероприятиях'
 	},
 	'uchastiye-v-razrabotke-zakonoproyektov': {
 		title: 'Участие в разработке законопроектов'
 	},
+		'---private': {
+    type: 'separator',
+		title: 'Личные и учебные'
+  },
 	'razrabotka-saita-portfolio-tekhpisatelya': {
 		title: 'Разработка сайта-портфолио'
 	},

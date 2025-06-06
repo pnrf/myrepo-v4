@@ -1,38 +1,30 @@
 export default {
 	index: {
-		title: 'Дисклеймер',
+		title: 'Дисклеймер'
+	},
+		'table-of-contents': {
+		title: 'Содержание',
 		theme: {
 			pagination: false
 		}
 	},
 	'---': {
-    type: 'separator',
-		title: 'Рабочие кейсы'
+    type: 'separator'
   },
-	projects: {
-		title: 'Проекты',
-		theme: {
-			pagination: false
-		}
-	},
 	docs: {
 		title: 'Документы',
 		theme: {
 			pagination: false
 		}
 	},
-	'---examples': {
-    type: 'separator',
-		title: 'Документация'
-  },
-	diploma: {
-		title: 'Movies Explorer Docs',
+	programs: {
+		title: 'Программы',
 		theme: {
 			pagination: false
 		}
 	},
-	nextra: {
-		title: 'Nextra 2.x Docs',
+	projects: {
+		title: 'Проекты',
 		theme: {
 			pagination: false
 		}

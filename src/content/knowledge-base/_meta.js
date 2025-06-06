@@ -1,5 +1,6 @@
 export default {
-	index: 'О базе знаний',
+	index: 'Дисклеймер',
+	'table-of-contents': 'Содержание',
 	'---': {
 		type: 'separator'
 	},
