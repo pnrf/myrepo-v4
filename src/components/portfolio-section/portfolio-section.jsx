@@ -32,7 +32,7 @@ export default function PortfolioSection() {
 						{/* <a href='/portfolio/programs'>Все программы →</a> */}
 					</div>
 				</div>
-				<div className={`${styles['portfolio-section__card']}`}>
+				<div className={styles['portfolio-section__card']}>
 					<h3 className={styles['portfolio-section__card-title']}>Список проектов</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
@@ -45,14 +45,14 @@ export default function PortfolioSection() {
 						<a href='/portfolio/projects'>Все проекты →</a>
 					</div>
 				</div>
-				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>База знаний</h3>
+				<div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
+					<h3 className={`${styles['portfolio-section__card-title']} ${styles['portfolio-section__card-title_highlight']}`}>База знаний</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/knowledge-base/concepts/bem'>Концепции</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/knowledge-base/standards/gost-2'>Нормативы</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/knowledge-base/services/can-i-include'>Сервисы</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/knowledge-base/technologies/api'>Технологии</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/concepts/bem'>Концепции</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/standards/gost-2'>Нормативы</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/services/can-i-include'>Сервисы</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/technologies/api'>Технологии</a></li>
 						</ul>
 						<a href='/knowledge-base'>К содержанию →</a>
 					</div>

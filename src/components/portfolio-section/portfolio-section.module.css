@@ -15,14 +15,15 @@
 }
 
 .portfolio-section__container {
+	margin-top: 16px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	gap: 10px;
 }
 
 .portfolio-section__card {
-	margin-top: 16px;
+	/* margin-top: 16px; */
 	max-width: 410px;
 	width: 100%;
 	display: flex;
@@ -45,6 +46,10 @@
 	color: #647F94;
 }
 
+.portfolio-section__card-title_highlight {
+	color: rgb(245, 245, 245);
+}
+
 .portfolio-section__card-content {
 	height: 100%;
 	display: flex;
@@ -65,6 +70,10 @@
 
 .portfolio-section__link {
 	border-bottom: 1px dashed #647F94;
+}
+
+.portfolio-section__link-highlight {
+	border-bottom: 1px dashed rgb(208, 208, 208);
 }
 
 @media screen and (max-width: 925px) {
