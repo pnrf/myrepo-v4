@@ -12,19 +12,19 @@ export default {
     type: 'separator'
   },
 	docs: {
-		title: 'Примеры документов',
+		title: 'Документы',
 		theme: {
 			pagination: false
 		}
 	},
 	programs: {
-		title: 'Описания программ',
+		title: 'Программы',
 		theme: {
 			pagination: false
 		}
 	},
 	projects: {
-		title: 'Список проектов',
+		title: 'Проекты',
 		theme: {
 			pagination: false
 		}

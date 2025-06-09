@@ -6,7 +6,7 @@ export default function PortfolioSection() {
 			<h2 className={styles['portfolio-section__heading']}>Портфолио</h2>
 			<div className={styles['portfolio-section__container']}>
 				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>Примеры документов</h3>
+					<h3 className={styles['portfolio-section__card-title']}>Документы</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/rukovodstvo-po-ekspluatatsii-po'>Руководство по эксплуатации ↗</a></li>
@@ -21,7 +21,7 @@ export default function PortfolioSection() {
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>Описания программ</h3>
+					<h3 className={styles['portfolio-section__card-title']}>Программы</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/razrabotka-meditsinskoy-infosistemy'>Медицинская инфосистема</a></li>
@@ -33,7 +33,7 @@ export default function PortfolioSection() {
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>Список проектов</h3>
+					<h3 className={styles['portfolio-section__card-title']}>Проекты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/registratsiya-po-v-reyestre-mintsifry'>Регистрация ПО в Минцифры</a></li>
