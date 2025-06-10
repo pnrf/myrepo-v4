@@ -1,6 +1,6 @@
 export default {
-	index: 'Дисклеймер',
-	'table-of-contents': 'Содержание',
+	index: 'Содержание',
+	'disclaimer': 'Дисклеймер',
 	'---': {
 		type: 'separator'
 	},

@@ -1,9 +1,9 @@
 export default {
 	index: {
-		title: 'Дисклеймер'
+		title: 'Содержание'
 	},
-		'table-of-contents': {
-		title: 'Содержание',
+		'disclaimer': {
+		title: 'Дисклеймер',
 		theme: {
 			pagination: false
 		}
