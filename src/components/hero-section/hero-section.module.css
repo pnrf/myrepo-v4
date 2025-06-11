@@ -16,8 +16,8 @@
 .hero-section__content {
 	display: flex;
 	flex-wrap: wrap-reverse;
-	justify-content: center;
-	gap: 30px;
+	justify-content: space-between;
+	gap: 10px;
 }
 
 .hero-section__text-wrapper {
@@ -49,7 +49,9 @@
 }
 
 .hero-section__image-wrapper {
-	max-width: 400px;
+	display: flex;
+	align-items: flex-end;
+	max-width: 420px;
 	min-width: 270px;
 	width: 100%;
 	overflow: hidden;
@@ -64,6 +66,7 @@
 }
 
 .hero-section__buttons {
+	margin-bottom: 6px;
 	max-width: 400px;
 	min-width: 270px;
 	width: 100%;

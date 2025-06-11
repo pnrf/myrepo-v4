@@ -1,6 +1,7 @@
 export default {
 	index: 'Содержание',
-	'disclaimer': 'Дисклеймер',
+	disclaimer: 'Дисклеймер',
+	'useful-links': 'Полезные ссылки',
 	'---': {
 		type: 'separator'
 	},

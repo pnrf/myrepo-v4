@@ -6,12 +6,19 @@ export default {
 			pagination: false
 		}
 	},
-	'---': {
-    type: 'separator'
+	disclaimer: 'Дисклеймер',
+	'articles': {
+    type: 'separator',
+		title: 'Статьи'
   },
 	'kak-rabotat-s-yandex-gpt': 'Как работать с YandexGPT',
-	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': 'Виды технической документации',
 	'kak-sdelat-sayt-s-tekhnicheskoy-dokumentatsiyey': 'Как сделать сайт с документацией',
 	'zachem-tekhpisatelyu-sayt-portfolio': 'Зачем техписателю сайт-портфолио',
-	'kto-takoy-tekhnicheskiy-pisatel': 'Кто такой технический писатель'
+	'kto-takoy-tekhnicheskiy-pisatel': 'Кто такой технический писатель',
+	'notes': {
+    type: 'separator',
+		title: 'Заметки'
+  },
+	'how-convert-safari-bookmarks-to-markdown': 'Как конвертировать закладки Safari в Markdown',
+	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': 'Виды технической документации'
 }

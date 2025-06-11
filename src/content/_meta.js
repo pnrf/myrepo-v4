@@ -31,6 +31,10 @@ export default {
 		title: 'Блог',
 		type: 'page'
 	},
+	faq: {
+		title: 'Ответы',
+		type: 'page'
+	},
 	contacts: {
 		title: 'Контакты',
 		display: 'hidden',

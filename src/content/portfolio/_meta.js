@@ -2,7 +2,7 @@ export default {
 	index: {
 		title: 'Содержание'
 	},
-		'disclaimer': {
+	disclaimer: {
 		title: 'Дисклеймер',
 		theme: {
 			pagination: false
