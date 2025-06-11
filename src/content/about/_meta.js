@@ -10,5 +10,6 @@ export default {
   },
 	'dokumentirovaniye-programmnykh-produktov': 'Документирование программных продуктов',
 	'sozdaniye-kontenta': 'Создание контента для интерфейсов и баз знаний',
-	'sostavleniye-yuridicheskikh-dokumentov': 'Составление юридических документов'
+	'sostavleniye-yuridicheskikh-dokumentov': 'Составление юридических документов',
+	'razrabotka-saytov': 'Верстка сайтов с документацией'
 }
