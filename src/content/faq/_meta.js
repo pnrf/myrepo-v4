@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'FAQ',
+		title: 'Ответы',
 		theme: {
 			pagination: false
 		}

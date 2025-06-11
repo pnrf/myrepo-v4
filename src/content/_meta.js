@@ -32,7 +32,7 @@ export default {
 		type: 'page'
 	},
 	faq: {
-		title: 'Ответы',
+		title: 'FAQ',
 		type: 'page'
 	},
 	contacts: {
