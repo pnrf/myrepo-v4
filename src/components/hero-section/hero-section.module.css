@@ -55,15 +55,16 @@
 	min-width: 270px;
 	width: 100%;
 	overflow: hidden;
+
+	background: url('../../images/img-hero-section-02.png') no-repeat 0 0;
+	background-size: contain;
 }
 
-.hero-section__image {
-	/* margin-top: 15px; */
+/* .hero-section__image {
 	width: 100%;
 	object-fit: cover;
 	border-radius: 8px;
-	/* border: 1px solid #647F94; */
-}
+} */
 
 .hero-section__buttons {
 	margin-bottom: 6px;
