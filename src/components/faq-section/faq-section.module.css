@@ -1,0 +1,27 @@
+.faq-section__summary {
+  display: block;
+	cursor: pointer;
+}
+
+.faq-section__summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-section__summary::before {
+  content: "\25B6";
+	color: #647F94;
+  padding-right: 0.5em;
+}
+
+.faq-section__details[open] > .faq-section__summary::before {
+  content: "\25BC";
+	color: #647F94;
+}
+
+.faq-section__details[open] > div {
+	margin: 20px;
+}
+
+.faq-section__link {
+	margin-top: 30px;
+}
