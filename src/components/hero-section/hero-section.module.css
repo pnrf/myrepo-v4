@@ -16,7 +16,7 @@
 .hero-section__content {
 	display: flex;
 	flex-wrap: wrap-reverse;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 10px;
 }
 
@@ -49,14 +49,16 @@
 }
 
 .hero-section__image-wrapper {
-	display: flex;
+	/* display: flex;
 	align-items: flex-end;
 	max-width: 420px;
 	min-width: 270px;
 	width: 100%;
-	overflow: hidden;
-
-	background: url('../../images/img-hero-section-02.png') no-repeat 0 0;
+	overflow: hidden; */
+	
+	width: 420px;
+	height: 280px;
+	background: url('../../images/img-hero-section-02.png') no-repeat;
 	background-size: contain;
 }
 
