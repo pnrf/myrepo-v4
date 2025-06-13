@@ -1,3 +1,7 @@
+.faq-section__details {
+	margin-bottom: 6px;
+}
+
 .faq-section__summary {
   display: block;
 	cursor: pointer;
@@ -19,9 +23,17 @@
 }
 
 .faq-section__details[open] > div {
-	margin: 20px;
+	margin: 14px;
+}
+
+.faq-section__details[open] > div > p {
+	margin-top: 6px;
 }
 
 .faq-section__link {
+	border-bottom: 1px dashed #647F94;
+}
+
+.faq-section__link-margins {
 	margin-top: 30px;
 }
