@@ -29,7 +29,7 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/nextra/about-nextra'>Фреймворк Nextra 3.x</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/movies-explorer'>Movies Explorer</a></li>
 						</ul>
-						{/* <a href='/portfolio/programs'>Все программы →</a> */}
+						<a href='/portfolio/programs'>Все программы →</a>
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
