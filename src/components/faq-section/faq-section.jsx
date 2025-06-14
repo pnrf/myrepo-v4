@@ -14,21 +14,13 @@ export default function FaqSection() {
 								<p>1. <a className={faqStyles['faq-section__link']} href='/about/dokumentirovaniye-programmnykh-produktov'>задокументировать ваш программный продукт</a></p>
 								<p>2. <a className={faqStyles['faq-section__link']} href='/about/sozdaniye-kontenta'>создать контент для вашей внутренней базы знаний</a></p>
 								<p>3. <a className={faqStyles['faq-section__link']} href='/about/sostavleniye-yuridicheskikh-dokumentov'>составить юридические документы</a></p>
-								{/* <p>4. <a className={faqStyles['faq-section__link']} href='/about/razrabotka-saytov'>опубликовать документы в сети</a></p> */}
+								<p>4. <a className={faqStyles['faq-section__link']} href='/about/razrabotka-saytov'>опубликовать документы в сети в нужном формате</a></p>
 						</div>
 					</details>
 					<details className={faqStyles['faq-section__details']}>
-						<summary className={faqStyles['faq-section__summary']}>Какой у вас опыт работы?</summary>
+						<summary className={faqStyles['faq-section__summary']}>Какой у вас опыт работы в ИТ-сфере?</summary>
 							<div>
-								<p>- Работаю в ИТ с 2023 года. Документировал программные продукты (ИИ-сервисы) и автоматизированную систему (МИС). Поддерживал внутреннюю базу знаний о продукте.</p>
-								<p>- До этого 20 лет отработал корпоративным юристом в торгово-производственных и консалтинговых компаниях. Составлял юридические документы. Консультировал по правовым вопросам.</p>
-							</div>
-					</details>
-					<details className={faqStyles['faq-section__details']}>
-						<summary className={faqStyles['faq-section__summary']}>Если не секрет, почему удалёнка?</summary>
-							<div>
-								<p>- Тратить время на дорогу – неоправданное расточительство. Ездил в офис на Павелецкой, выходило по 4 часа в день (туда-обратно).</p>
-								<p>- В летне-осенний период живу на даче. Мотаться в Москву возможности нет.</p>
+								<p>Работаю в ИТ с 2023 года. Документировал программные продукты (ИИ-сервисы) и медицинскую информационную систему (МИС). Создавал контент для внутренней базы знаний о продукте.</p>
 							</div>
 					</details>
 					<details className={faqStyles['faq-section__details']}>

@@ -28,5 +28,11 @@ export default {
 		theme: {
 			pagination: false
 		}
+	},
+	diagrams: {
+		title: 'Схемы',
+		theme: {
+			pagination: false
+		}
 	}
 }
