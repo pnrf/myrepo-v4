@@ -16,7 +16,7 @@ export default {
 		type: 'page',
 		theme: {
 			pagination: false,
-			sidebar: false
+			sidebar: true
 		}
 	},
 	portfolio: {
