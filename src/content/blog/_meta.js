@@ -11,6 +11,7 @@ export default {
     type: 'separator',
 		title: 'Статьи'
   },
+	'how-i-create-technical-documentation': 'Как я создаю техническую документацию',
 	'kak-rabotat-s-yandex-gpt': 'Как работать с YandexGPT',
 	'kak-sdelat-sayt-s-tekhnicheskoy-dokumentatsiyey': 'Как сделать сайт с документацией',
 	'zachem-tekhpisatelyu-sayt-portfolio': 'Зачем техписателю сайт-портфолио',
