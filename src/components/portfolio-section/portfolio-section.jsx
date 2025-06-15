@@ -21,7 +21,7 @@ export default function PortfolioSection() {
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>Программы</h3>
+					<h3 className={styles['portfolio-section__card-title']}>Продукты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/razrabotka-meditsinskoy-infosistemy'>Медицинская инфосистема</a></li>
@@ -29,7 +29,7 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/nextra/about-nextra'>Фреймворк Nextra 3.x</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/movies-explorer'>Movies Explorer</a></li>
 						</ul>
-						<a href='/portfolio/programs'>Все программы →</a>
+						<a href='/portfolio/programs'>Все продукты →</a>
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>

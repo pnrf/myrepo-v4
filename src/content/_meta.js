@@ -33,17 +33,7 @@ export default {
 	},
 	faq: {
 		title: 'FAQ',
-		type: 'page'
-	},
-	contacts: {
-		title: 'Контакты',
-		display: 'hidden',
-		theme: {
-			breadcrumb: false,
-			pagination: false,
-			sidebar: false,
-			timestamp: false,
-			toc: false
-		}
+		type: 'page',
+		display: 'hidden'
 	}
 }

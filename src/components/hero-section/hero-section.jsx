@@ -10,12 +10,12 @@ export default function HeroSection() {
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<div className={styles['hero-section__text-block']}>
 							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года.</p>
-							<p className={styles['hero-section__text']}>Разрабатываю техническую и&nbsp;юридическую документацию по&nbsp;программным продуктам и&nbsp;автоматизированным системам.</p>
+							<p className={styles['hero-section__text']}>Разрабатываю техническую и&nbsp;юридическую документацию по&nbsp;программным продуктам. Создаю контент для баз знаний.</p>
 						</div>
 					</div>
 					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/12PZjcYksHuzUeSC7Oz-d2TpI6AWqy2um/view?usp=share_link" target="_blank">Резюме ↗</a>
-						<a className={styles['hero-section__button']} href="/contacts">Контакты</a>
+						<a className={styles['hero-section__button']} href="https://t.me/yuptechwriter" target="_blank">Контакты</a>
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>

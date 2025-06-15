@@ -8,9 +8,8 @@ export default function SkillsSection() {
 				<div className={styles['skills-section__card']}>
 					<ul className={styles['skills-section__card-list']}>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/dokumentirovaniye-programmnykh-produktov'>Документирование программных продуктов</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/sozdaniye-kontenta'>Управление знаниями о продукте (wiki)</a></li>
+						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/sozdaniye-kontenta'>Создание контента для баз знаний (wiki)</a></li>
 						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/sostavleniye-yuridicheskikh-dokumentov'>Составление юридических документов</a></li>
-						<li className={styles['skills-section__card-list-item']}><a className={styles['skills-section__link']} href='/about/razrabotka-saytov'>Генерация и публикация документов</a></li>
 					</ul>
 					<a href='/about'>Обо мне →</a>
 				</div>

@@ -13,7 +13,6 @@ export default function MainPage() {
 			<SkillsSection />
 			<PortfolioSection />
 			<BlogSection />
-			<FaqSection/>
 		</div>
 	)
 }

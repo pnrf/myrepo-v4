@@ -9,7 +9,7 @@ export default {
     type: 'separator'
   },
 	'dokumentirovaniye-programmnykh-produktov': 'Документирую программные продукты',
-	'sozdaniye-kontenta': 'Управляю знананиями о продукте',
+	'sozdaniye-kontenta': 'Создаю контент для баз знаний (wiki)',
 	'sostavleniye-yuridicheskikh-dokumentov': 'Составляю юридические документы',
 	'razrabotka-saytov': {
 		title: 'Верстка сайтов с документацией',
