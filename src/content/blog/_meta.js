@@ -21,6 +21,6 @@ export default {
   },
 	'interview-questions-list': 'Список вопросов для собеседования',
 	'how-i-create-technical-documentation': 'Как я создаю техническую документацию',
-	'how-convert-safari-bookmarks-to-markdown': 'Как конвертировать закладки Safari в Markdown',
+	'basic-principles-of-technical-writing': 'Основные принципы технического письма',
 	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': 'Виды технической документации'
 }
