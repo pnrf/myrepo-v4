@@ -8,11 +8,11 @@ export default {
 	'---': {
     type: 'separator'
   },
-	'dokumentirovaniye-programmnykh-produktov': 'Документирую программные продукты',
-	'sozdaniye-kontenta': 'Создаю контент для баз знаний (wiki)',
-	'sostavleniye-yuridicheskikh-dokumentov': 'Составляю юридические документы',
-	'razrabotka-saytov': {
-		title: 'Верстка сайтов с документацией',
+	'software-documentation-development': 'Документирую программные продукты',
+	'wiki-content-development': 'Создаю контент для баз знаний (wiki)',
+	'legal-documents-development': 'Составляю юридические документы',
+	'documents-publishing': {
+		title: 'Публикация документов в сети',
 		display: 'hidden'
 	}
 }
