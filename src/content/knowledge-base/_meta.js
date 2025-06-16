@@ -1,6 +1,9 @@
 export default {
 	index: 'Содержание',
 	disclaimer: 'Дисклеймер',
+	'---common': {
+		type: 'separator'
+	},
 	glossary: 'Глоссарий',
 	'useful-links': 'Полезные ссылки',
 	'---': {

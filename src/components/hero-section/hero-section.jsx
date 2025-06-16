@@ -15,7 +15,7 @@ export default function HeroSection() {
 					</div>
 					<div className={styles['hero-section__buttons']}>
 						<a className={styles['hero-section__button']} href="https://drive.google.com/file/d/12PZjcYksHuzUeSC7Oz-d2TpI6AWqy2um/view?usp=share_link" target="_blank">Резюме ↗</a>
-						<a className={styles['hero-section__button']} href="https://t.me/yuptechwriter" target="_blank">Контакты</a>
+						<a className={styles['hero-section__button']} href="https://t.me/yuptechwriter" target="_blank">Контакты ↗</a>
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>

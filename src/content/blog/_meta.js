@@ -19,6 +19,7 @@ export default {
     type: 'separator',
 		title: 'Заметки'
   },
+	'interview-questions-list': 'Список вопросов для собеседования',
 	'how-i-create-technical-documentation': 'Как я создаю техническую документацию',
 	'how-convert-safari-bookmarks-to-markdown': 'Как конвертировать закладки Safari в Markdown',
 	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': 'Виды технической документации'
