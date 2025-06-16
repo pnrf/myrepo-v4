@@ -8,7 +8,7 @@
 
 .footer__text {
 	font-size: .8em;
-	line-height: 1.2em;
+	line-height: 1.6em;
 	color: #647F94;
 }
 
@@ -33,4 +33,8 @@
 .footer__icon_highlight {
 	background-color: #647F94;
 	color: white;
+}
+
+.footer__link {
+	border-bottom: 1px dotted #647F94;
 }

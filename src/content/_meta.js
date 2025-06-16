@@ -35,5 +35,10 @@ export default {
 		title: 'FAQ',
 		type: 'page',
 		display: 'hidden'
+	},
+	'terms-of-use': {
+		title: 'Правила сайта',
+		type: 'page',
+		display: 'hidden'
 	}
 }
