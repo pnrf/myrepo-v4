@@ -1,33 +1,16 @@
 export default {
-	index: {
-		title: 'Содержание',
+	index: 'Содержание',
+	disclaimer: 'Дисклеймер',
+	"---": {
+		type: 'separator'
+	},
+	articles: {
+		title: 'ЧИСТОВИК'
+	},
+	notes: {
+		title: 'ЧЕРНОВИК',
 		theme: {
 			pagination: false
 		}
-	},
-	disclaimer: 'Дисклеймер',
-	'articles': {
-    type: 'separator',
-		title: 'Популярное'
-  },
-	'kak-rabotat-s-yandex-gpt': 'Как работать с YandexGPT',
-	'kak-sdelat-sayt-s-tekhnicheskoy-dokumentatsiyey': 'Как сделать сайт с документацией',
-	'zachem-tekhpisatelyu-sayt-portfolio': 'Зачем техписателю сайт-портфолио',
-	'kto-takoy-tekhnicheskiy-pisatel': 'Кто такой технический писатель',
-	'why-did-ru-center-raised-prices-for-domains-in-2025': 'Почему Ру-Центр взвинтил цены на домены в 2025',
-	'how-to-automate-technical-writer-work': {
-		title: 'Как автоматизировать работу техписателя',
-		display: 'hidden'},
-	'writing-styles': {
-		title: 'Стили написания текстов',
-		display: 'hidden'},
-	'interview-questions-list': {
-		title: 'Список вопросов для собеседования',
-		display: 'hidden'},
-	'basic-principles-of-technical-writing': {
-		title: 'Основные принципы технического письма',
-		display: 'hidden'},
-	'tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet': {
-		title: 'Виды технической документации',
-		display: 'hidden'}
+	}
 }
