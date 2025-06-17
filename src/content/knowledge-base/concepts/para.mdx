@@ -1,0 +1,70 @@
+---
+title: концепция PARA | База знаний технического писателя
+description: Мой репозиторий. Myrepo.ru – сайт-портфолио технического писателя
+---
+
+import { FileTree } from 'nextra/components'
+
+# PARA
+
+**P.A.R.A.** (Projects, Areas, Resources, Archives) — это система организации информации и задач, основанная на разделении всего контента на 4 основные категории:
+
+* **Проекты** (**P**rojects) — текущие задачи с дедлайнами и всеми сопутствующими материалами
+* **Процессы** (**A**reas) — постоянные области ответственности (здоровье, финансы, семья, бизнес-процессы по категориям)
+* **Ресурсы** (**R**esources) — заметки и информация для будущего использования, база знаний.
+* **Архив** (**A**rchives) — завершенные проекты, процессы, неактуальные материалы, утраченные ресурсы.
+
+Суть системы в том, что каждая категория имеет только один уровень вложенных папок, что делает поиск информации максимально быстрым и удобным. P.A.R.A. можно применять в любых системах хранения информации — от облачных сервисов до локальных папок на компьютере.
+
+**Пример файловой структуры:**
+
+<FileTree>
+  <FileTree.Folder name="Архив">
+	  <FileTree.Folder name="Проекты">
+		</FileTree.Folder>
+	  <FileTree.Folder name="Процессы">
+		</FileTree.Folder>
+	  <FileTree.Folder name="Ресурсы">
+		</FileTree.Folder>
+	</FileTree.Folder>
+  <FileTree.Folder name="Проекты" defaultOpen>
+		<FileTree.Folder name="Регистрация в реестре отечественного ПО Минцифры" defaultOpen>
+			<FileTree.Folder name="Документация" defaultOpen>
+				<FileTree.File name="Заявление_в_Минцифры.docx" />
+				<FileTree.File name="Образец_лицензионного_договора.docx" />
+				<FileTree.File name="Описание_процессов_жизненного_цикла.docx" />
+				<FileTree.File name="Описание_функциональных_характеристик.docx" />
+				<FileTree.File name="Руководство_по_эксплуатации.docx" />
+				<FileTree.File name="Технические_условия.docx" />
+			</FileTree.Folder>
+			<FileTree.Folder name="Иллюстрации" defaultOpen>
+				<FileTree.Folder name="Исходники" defaultOpen>
+					<FileTree.File name="img-001.jpg" />
+					<FileTree.File name="img-002.jpg" />
+					<FileTree.File name="img-003.png" />
+					<FileTree.File name="img-124.png" />
+				</FileTree.Folder>
+				<FileTree.Folder name="Обработано" defaultOpen>
+					<FileTree.File name="diagram-life-cycle-model-001.jpg" />
+					<FileTree.File name="diagram-data-depersonalization-process-001.jpg" />
+					<FileTree.File name="pic-gui-001.png" />
+					<FileTree.File name="pic-gui-002.png" />
+				</FileTree.Folder>
+			</FileTree.Folder>
+			<FileTree.Folder name="Мастер-документ" defaultOpen>
+				<FileTree.File name="Глоссарий.docx" />
+				<FileTree.File name="Мастер-документ.docx" />
+			</FileTree.Folder>
+			<FileTree.Folder name="Trash" defaultOpen>
+				<FileTree.File name="Статья_о_моделях_жизненного_цикла.pdf" />
+				<FileTree.File name="ПНСТ_Системы_ИИ_в_клинической_медицине_Часть_10.pdf" />
+			</FileTree.Folder>
+			<FileTree.File name="Readme.docx" />		
+		</FileTree.Folder>
+	</FileTree.Folder>
+	<FileTree.Folder name="Процессы">
+	</FileTree.Folder>
+	<FileTree.Folder name="Ресурсы">
+	</FileTree.Folder>
+</FileTree>
+*Примеч.: папки кликабельные*
