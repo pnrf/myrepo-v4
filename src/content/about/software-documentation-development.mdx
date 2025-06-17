@@ -209,10 +209,16 @@ import { FileTree } from 'nextra/components'
 На этом этапе я прикрепляю созданные документы в таск-трекер, удаляю из файловой структуры все лишнее (обычно это папки "Trash" и "Мастер-документ"), переношу в архив папку "Иллюстрации" и дописываю Readme. В идеале у меня должно остаться только самое необходимое:
 
 <FileTree>
-  <FileTree.Folder name="Архив">
+  <FileTree.Folder name="Архив" defaultOpen>
+	  <FileTree.Folder name="Иллюстрации" defaultOpen>
+			<FileTree.File name="diagram-life-cycle-model-001.jpg" />
+			<FileTree.File name="diagram-data-depersonalization-process-001.jpg" />
+			<FileTree.File name="pic-gui-001.png" />
+			<FileTree.File name="pic-gui-002.png" />
+		</FileTree.Folder>
 	</FileTree.Folder>
   <FileTree.Folder name="Проекты" defaultOpen>
-		<FileTree.Folder name="Регистрация ИИ-сервиса в реестре отечественного ПО Минцифры" defaultOpen>
+		<FileTree.Folder name="Регистрация в реестре отечественного ПО Минцифры" defaultOpen>
 			<FileTree.Folder name="Документация" defaultOpen>
 				<FileTree.File name="Заявление_в_Минцифры.docx" />
 				<FileTree.File name="Образец_лицензионного_договора.docx" />
@@ -222,6 +228,20 @@ import { FileTree } from 'nextra/components'
 				<FileTree.File name="Технические_условия.docx" />
 			</FileTree.Folder>
 			<FileTree.File name="Readme.docx" />		
+		</FileTree.Folder>
+	</FileTree.Folder>
+	<FileTree.Folder name="Процессы">
+	</FileTree.Folder>
+	<FileTree.Folder name="Ресурсы" defaultOpen>
+			<FileTree.Folder name="Шаблоны документов">
+			</FileTree.Folder>
+	</FileTree.Folder>
+</FileTree>
+<FileTree>
+  <FileTree.Folder name="Корзина" defaultOpen>
+	  <FileTree.Folder name="Мастер-документ">
+		</FileTree.Folder>
+		<FileTree.Folder name="Trash">
 		</FileTree.Folder>
 	</FileTree.Folder>
 </FileTree>
