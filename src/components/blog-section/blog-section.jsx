@@ -7,7 +7,6 @@ export default function BlogSection() {
 			<div className={styles['blog-section__container']}>
 				<div className={styles['blog-section__card']}>
 					<ul className={styles['blog-section__card-list']}>
-						<li className={styles['blog-section__card-list-item']}><a className={styles['blog-section__link']} href='/blog/how-i-create-technical-documentation'>Как я создаю техническую документацию</a><span className={styles['blog-section__card-list-item-date']}> – Июнь 14, 2025</span></li>
 						<li className={styles['blog-section__card-list-item']}><a className={styles['blog-section__link']} href='/blog/kak-rabotat-s-yandex-gpt'>Как работать с YandexGPT</a><span className={styles['blog-section__card-list-item-date']}> – Июнь 01, 2025</span></li>
 						<li className={styles['blog-section__card-list-item']}><a className={styles['blog-section__link']} href='/blog/tekhnicheskaya-dokumentatsiya-kakoy-ona-byvayet'>Виды технической документации по программным продуктам</a><span className={styles['blog-section__card-list-item-date']}> – Май 27, 2025</span></li>
 						<li className={styles['blog-section__card-list-item']}><a className={styles['blog-section__link']} href='/blog/kak-sdelat-sayt-s-tekhnicheskoy-dokumentatsiyey'>Как сделать сайт с документацией (пошаговая инструкция)</a><span className={styles['blog-section__card-list-item-date']}> – Апрель 10, 2025</span></li>
