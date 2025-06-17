@@ -54,7 +54,7 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/services/can-i-include'>Сервисы</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/knowledge-base/technologies/api'>Технологии</a></li>
 						</ul>
-						<a href='/knowledge-base/table-of-contents'>К содержанию →</a>
+						<a href='/knowledge-base'>К содержанию →</a>
 					</div>
 				</div>
 			</div>

@@ -19,6 +19,8 @@ export default {
     type: 'separator',
 		title: 'Заметки'
   },
+	'how-to-automate-technical-writer-work': 'Как автоматизировать работу техписателя',
+	'writing-styles': 'Стили написания текстов',
 	'interview-questions-list': 'Список вопросов для собеседования',
 	'how-i-create-technical-documentation': 'Как я создаю техническую документацию',
 	'basic-principles-of-technical-writing': 'Основные принципы технического письма',
