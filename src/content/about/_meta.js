@@ -8,9 +8,9 @@ export default {
 	'---': {
     type: 'separator'
   },
-	'software-documentation-development': 'Документирую программные продукты',
-	'wiki-content-development': 'Создаю контент для баз знаний (wiki)',
-	'legal-documents-development': 'Составляю юридические документы',
+	'software-documentation-development': 'Документирование программных продуктов',
+	'wiki-content-development': 'Создание контента для баз знаний (wiki)',
+	'legal-documents-development': 'Составление юридических документов',
 	'documents-publishing': {
 		title: 'Публикация документов в сети',
 		display: 'hidden'
