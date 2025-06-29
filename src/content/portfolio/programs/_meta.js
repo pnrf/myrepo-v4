@@ -1,8 +1,8 @@
 export default {
-	'razrabotka-meditsinskoy-infosistemy': {
+	'mis': {
 		title: 'Инфосистема'
 	},
-		'razrabotka-ii-servisov': {
+		'ai-services': {
 		title:  'ИИ-сервисы'
 	},
 	'movies-explorer': {

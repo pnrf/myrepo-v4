@@ -24,8 +24,8 @@ export default function PortfolioSection() {
 					<h3 className={styles['portfolio-section__card-title']}>Продукты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/razrabotka-meditsinskoy-infosistemy'>Медицинская инфосистема</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/razrabotka-ii-servisov'>ИИ-сервисы для медицины</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/mis'>Медицинская инфосистема</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/ai-services'>ИИ-сервисы для медицины</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/nextra/about-nextra'>Фреймворк Nextra 3.x</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/programs/movies-explorer'>Movies Explorer</a></li>
 						</ul>
