@@ -18,12 +18,13 @@ export default {
 		}
 	},
 	programs: {
-		title: 'Программы',
+		title: 'Продукты',
 		theme: {
 			pagination: false
 		}
 	},
 	projects: {
+		display: 'hidden',
 		title: 'Проекты',
 		theme: {
 			pagination: false
