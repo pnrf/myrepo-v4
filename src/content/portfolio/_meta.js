@@ -17,7 +17,7 @@ export default {
 			pagination: false
 		}
 	},
-	programs: {
+	products: {
 		title: 'Продукты',
 		theme: {
 			pagination: false

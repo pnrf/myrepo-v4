@@ -3,6 +3,12 @@ export default {
     type: 'separator',
 		title: 'Коммерческие'
   },
+	'proyektirovaniye-mis': {
+		title: 'Проектирование инфосистемы'
+	},
+	'dokumentirovaniye-ii-servisov': {
+		title: 'Документирование ИИ-сервисов'
+	},
 	'registratsiya-po-v-reyestre-mintsifry': {
 		title: 'Регистрация ПО в реестре Минцифры'
 	},
