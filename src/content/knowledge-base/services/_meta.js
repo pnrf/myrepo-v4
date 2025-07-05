@@ -6,6 +6,7 @@ export default {
 	'github': 'Github',
 	'jira': 'Jira',
 	'obsidian': 'Obsidian',
+	'sphinx': 'Sphinx',
 	'storybook': 'Storybook.js',
 	'vs-code': 'Visual Studio Code' 
 }

@@ -1,0 +1,113 @@
+---
+title: Sphinx | База знаний технического писателя
+description: Мой репозиторий. Myrepo.ru – сайт-портфолио технического писателя
+---
+
+import { FileTree } from 'nextra/components'
+
+# Sphinx
+
+- генератор документации
+
+## Ссылки
+
+- [Официальная документация](https://www.sphinx-doc.org/en/master/index.html)
+
+## Установка Sphinx на MacOS
+
+1. На macOS установить [Homebrew](https://brew.sh) – пакетный менеджер для macOS.
+2. В командной строке терминала выполнить команду:
+
+```bash
+brew install sphinx-doc
+```
+
+3. Проверить версию Sphinx:
+
+```bash
+sphinx-build --version
+```
+
+## Создание Github-репозитория
+
+1. На macOS установить [Git](https://git-scm.com/book/ru/v2) - систему контроля версий.
+
+```bash
+brew install git
+```
+
+2. Проверить версию Git:
+
+```bash
+git -v 
+```
+
+3. Зарегистрироваться на [Github](https://github.com/) 
+4. На Github создать новый репозиторий. Например, myrepo-docs.
+5. Склонировать созданный репозиторий на компьютер:
+
+```bash
+git clone <SSH>
+```
+
+## Инициализация Sphinx-проекта
+
+1. Внутри склонированного репозитория создать папку `docs`, чтобы создавать sphinx-проект в отдельной директории:
+
+```bash filename="myrepo-docs"
+mkdir docs
+```
+
+2. В терминале перейти в созданную директорию `myrepo-docs/docs` и выполнить команду инициализации sphinx-проекта:
+
+```bash filename="myrepo-docs/docs"
+cd myrepo-docs
+sphinx-quickstart
+```
+
+В процессе инициализации система задаст вопросы:
+
+| Вопросы | Ответы |
+| ------ | ------ |
+| Разделить каталоги исходных файлов и результатов сборки (y/n) [n]: | y |
+| Название проекта*: | myrepo-docs |
+| Имя(ена) автора(ов)*: | author|
+| Релиз проекта []*: | 1.0.0 |
+| Язык проекта [en]*: | ru |
+
+*Примеч.: эти данные можно будет изменить в файле `conf.py`.
+
+Файловая структура проекта после выполнения всех предыдущих шагов:
+
+<FileTree>
+  <FileTree.Folder name="myrepo-docs" defaultOpen>
+		<FileTree.Folder name="docs" defaultOpen>
+			<FileTree.Folder name="build">
+			</FileTree.Folder>
+			<FileTree.Folder name="source" defaultOpen>
+				<FileTree.Folder name="_static">
+				</FileTree.Folder>
+				<FileTree.Folder name="_templates">
+				</FileTree.Folder>
+				<FileTree.File name="conf.py" />
+				<FileTree.File name="index.rst" />
+			</FileTree.Folder>
+			<FileTree.File name="make.bat" />
+    	<FileTree.File name="Makefile" />
+		</FileTree.Folder>
+    <FileTree.File name=".gitignore" />
+    <FileTree.File name="README.md" />
+  </FileTree.Folder>
+</FileTree>
+
+- `docs` – папка со Sphinx-проектом
+	- `build` – папка для генерации выходных документов.
+	- `source` – папка для размещения исходных файлов.
+		- `_static` – папка для размещения исходных файлов, не содержащих исходный код (например, изображения). После генерации выходных документов эта папка служит источником для вложений.
+		- `_templates` – папка для размещения шаблонов документов.
+		- `conf.py` – конфигурационный файл. Содержит ключевые параметры Sphinx-проекта.
+		- `index.rst` – корневой файл. Объединяет документацию воедино в случае, если она разделена на несколько файлов.
+	- `make.bat` – 
+	- `Makefile` – содержит инструкции для выходных документов, генереруемых командой `make`.
+- `.gitignore` – файл с исключениями. Указанные в нем файлы и папки не будут публиковаться в удаленном репозитории.
+- `README.md` – файл с описанием проекта (репозитория).
