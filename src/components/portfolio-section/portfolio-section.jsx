@@ -14,10 +14,10 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/opisaniye-funktsionalnykh-kharakteristik'>Описание характеристик ПО</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/tekhnicheskiye-usloviya'>Технические условия (ТУ)</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/tekhnicheskiye-zadaniya-na-programmnyy-kompleks'>Техническое задание (ТЗ)</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/obrazets-litsenzionnogo-dogovora'>Лицензионный договор</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/dorozhnaya-karta-po-uchastiyu-v-konkurse'>Дорожная карта конкурса</a></li>
+							{/* <li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/obrazets-litsenzionnogo-dogovora'>Лицензионный договор</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/docs/dorozhnaya-karta-po-uchastiyu-v-konkurse'>Дорожная карта конкурса</a></li> */}
 						</ul>
-						{/* <a href='/portfolio/docs'>Все документы →</a> */}
+						<a href='/portfolio'>Все документы →</a>
 					</div>
 				</div>
 				<div className={styles['portfolio-section__card']}>
@@ -30,7 +30,7 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/portfolio-website'>Мой репозиторий</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/nextra/about-nextra'>Фреймворк Nextra 4.х</a></li>
 						</ul>
-						{/* <a href='/portfolio/products'>Все продукты →</a> */}
+						<a href='/portfolio'>Все продукты →</a>
 					</div>
 				</div>
 				{/* <div className={styles['portfolio-section__card']}>

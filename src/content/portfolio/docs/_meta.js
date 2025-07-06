@@ -1,8 +1,4 @@
 export default {
-		'---tech': {
-    type: 'separator',
-		title: 'Технические'
-  },
 	'rukovodstvo-po-ekspluatatsii-po': {
 		title:  'Руководство по эксплуатации ПО'
 	}, 
@@ -18,17 +14,9 @@ export default {
 	'tekhnicheskiye-zadaniya-na-programmnyy-kompleks': {
 		title: 'Технические задания на программный комплекс'
 	},
-	'---legal': {
-    type: 'separator',
-		title: 'Юридические'
-  },
 	'obrazets-litsenzionnogo-dogovora': {
 		title: 'Образец лицензионного договора'
 	},
-	'---other': {
-    type: 'separator',
-		title: 'Прочие'
-  },
 	'dorozhnaya-karta-po-uchastiyu-v-konkurse': {
 		title: 'Дорожная карта по участию в конкурсе'
 	},
