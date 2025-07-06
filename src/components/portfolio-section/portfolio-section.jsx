@@ -27,8 +27,8 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/mis'>Медицинская инфосистема</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services'>ИИ-сервисы для медицины</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/portfolio-website'>Мой репозиторий</a></li>
-							{/* <li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/nextra/about-nextra'>Nextra 3.x</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/movies-explorer'>Movies Explorer</a></li> */}
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/nextra/about-nextra'>Фреймворк Nextra</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/movies-explorer'>Веб-приложение Киногид</a></li>
 						</ul>
 						<a href='/portfolio/products'>Все продукты →</a>
 					</div>
@@ -37,9 +37,9 @@ export default function PortfolioSection() {
 					<h3 className={styles['portfolio-section__card-title']}>Проекты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/proyektirovaniye-mis'>Проектирование инфосистемы</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/dokumentirovaniye-ii-servisov'>Регистрация ИИ-сервисов в реестрах</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/dokumentirovaniye-ii-servisov'>Разработка сайта-портфолио</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/proyektirovaniye-mis'>Проектирование медицинской системы</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/projects/dokumentirovaniye-ii-servisov'>Документирование ИИ-сервисов</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='#'>Проектирование программного комплекса</a></li>
 						</ul>
 						<a href='/portfolio/projects'>Все проекты →</a>
 					</div>

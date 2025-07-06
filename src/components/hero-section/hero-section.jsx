@@ -10,7 +10,7 @@ export default function HeroSection() {
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<div className={styles['hero-section__text-block']}>
 							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года.</p>
-							<p className={styles['hero-section__text']}>Разрабатываю техническую и&nbsp;юридическую документацию по&nbsp;программным продуктам. Создаю контент для баз знаний.</p>
+							<p className={styles['hero-section__text']}>Разрабатываю техническую документацию по&nbsp;программным продуктам. Создаю контент для&nbsp;баз знаний.</p>
 						</div>
 					</div>
 					<div className={styles['hero-section__buttons']}>
@@ -19,7 +19,6 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<div className={styles['hero-section__image-wrapper']}>
-					{/* <img className={styles['hero-section__image']} src="https://github.com/pnrf/myrepo-v4/blob/main/src/images/img-hero-section-02.png?raw=true" alt="Фоновое изображение" /> */}
 				</div>
 			</div>
 		</section>
