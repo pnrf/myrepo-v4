@@ -1,6 +1,6 @@
 export default {
 	index: {
-		title: 'Чем занимаюсь',
+		title: 'Общая информация',
 		theme: {
 			pagination: false
 		}
@@ -8,9 +8,18 @@ export default {
 	'---': {
     type: 'separator'
   },
-	'software-documentation-development': 'Документирование программных продуктов',
-	'wiki-content-development': 'Создание контента для баз знаний (wiki)',
-	'legal-documents-development': 'Составление юридических документов',
+	'software-documentation-development': {
+		title: 'Документирование программных продуктов',
+		display: 'hidden'
+	},
+	'wiki-content-development': {
+		title: 'Создание контента для баз знаний (wiki)',
+		display: 'hidden'
+	},
+	'legal-documents-development': {
+		title: 'Составление юридических документов',
+		display: 'hidden'
+	},
 	'documents-publishing': {
 		title: 'Публикация документов в сети',
 		display: 'hidden'

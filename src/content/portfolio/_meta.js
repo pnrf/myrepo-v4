@@ -24,6 +24,7 @@ export default {
 		}
 	},
 	projects: {
+		display: 'hidden',
 		title: 'Проекты',
 		theme: {
 			pagination: false
