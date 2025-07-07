@@ -5,7 +5,7 @@ export default {
 	disclaimer: {
 		title: 'Дисклеймер',
 		theme: {
-			pagination: false
+			pagination: true
 		}
 	},
 	'---': {
@@ -14,13 +14,13 @@ export default {
 	docs: {
 		title: 'Документы',
 		theme: {
-			pagination: false
+			pagination: true
 		}
 	},
 	products: {
 		title: 'Продукты',
 		theme: {
-			pagination: false
+			pagination: true
 		}
 	},
 	projects: {
