@@ -15,7 +15,7 @@ export default {
 		}
 	},
 	nextra: {
-		title: 'Nextra 3.x',
+		title: 'Nextra 4.x',
 		theme: {
 			pagination: false
 		}
