@@ -1,19 +1,42 @@
+import { FileTree } from 'nextra/components'
+
 # Мой репозиторий
 
-
 ### Общая информация
-Мой репозиторий – это **сайт-портфолио** технического писателя. 
+Проект **"Мой репозиторий"** – это сайт-портфолио технического писателя. Мой личный сайт для поиска работы. "Песочница" для моего развития навыков программирования, составления текстовых описаний и графических схем. 
 
-Проект размещен на GitHub и развернут на платформе Vercel.
+Проект содержит портфолио с документацией, базу знаний и блог. Доступен для широкой аудитории по адресу: [https://www.myrepo.ru](https://www.myrepo.ru).
 
 ### Технологический стек
-Проект разработан с использованием следующих технологий:
-* **[React](https://react.dev/)** - библиотека для создания пользовательских интерфейсов
-* **[Next.js](https://nextjs.org/)** - фреймворк для создания React-приложений
-* **[Nextra](https://nextra.site/)** - фреймворк для создания сайтов с документацией
-* **[Vercel](https://vercel.com/)** - платформа для развертывания
+Сайт создан на фреймворке [Nextra 4.x](https://nextra.site). Программный код размещен в публичном репозитории на [GitHub](https://github.com/pnrf). Хостинг и SSL-протокол предоставлены платформой [Vercel](https://vercel.com). Доменное имя зарегистрировано в [Ру-центре](https://nic.ru). PDF-документы размещены на Google Drive.
 
 ### Структура проекта
+
+<FileTree>
+  <FileTree.Folder name="src" defaultOpen>
+		<FileTree.Folder name="app" defaultOpen>
+			<FileTree.Folder name="[[..mdxPath]]" defaultOpen>
+			</FileTree.Folder>
+			<FileTree.File name="layout.jsx" />
+  	</FileTree.Folder>
+		<FileTree.Folder name="components" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.Folder name="content" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.Folder name="images" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.File name="mdx-components.js" />
+  </FileTree.Folder>
+	<FileTree.File name=".gitignore" />
+	<FileTree.File name="LICENCE" />
+	<FileTree.File name="next.config.mjs" />
+	<FileTree.File name="package-lock.json" />
+	<FileTree.File name="package.json" />
+	<FileTree.File name="README.md" />
+</FileTree>
+
+*Примечание: папки кликабельны.*
+
 Ключевые файлы проекта:
 * Конфигурационные файлы: `.gitignore`, `next.config.mjs`
 * Менеджер пакетов: `package.json`, `package-lock.json`
