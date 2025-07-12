@@ -1,26 +1,38 @@
 export default {
-	'dorozhnaya-karta-po-uchastiyu-v-konkurse': {
+	'tech-docs-dev-contract': {
+		title: 'Договор на разработку техдокументации'
+	},
+	'additional-agreement': {
+		title: 'Дополнительное соглашение к договору'
+	},
+	'roadmap': {
 		title: 'Дорожная карта по участию в конкурсе'
 	},
-	'obrazets-litsenzionnogo-dogovora': {
+	'license-agreement': {
 		title: 'Лицензионный договор'
 	},
-	'opisaniye-protsessov-zhiznennogo-tsikla': {
+	'life-cycle-description': {
 		title: 'Описание процессов жизненного цикла'
 	},
-	'opisaniye-funktsionalnykh-kharakteristik': {
+	'functional-characteristics-description': {
 		title: 'Описание функциональных характеристик'
 	},
-	'rukovodstvo-po-ekspluatatsii-po': {
+	'user-manual': {
 		title:  'Руководство по эксплуатации ПО'
 	},
-	'sbornik-istoriy-tekhpisateley': {
+	'tech-writers-stories-book': {
 		title: 'Сборник историй техписателей'
-	}, 
-	'tekhnicheskiye-usloviya': {
+	},
+	'nda': {
+		title: 'Соглашение о конфиденциальности'
+	},
+	'cover-letter': {
+		title: 'Сопроводительное письмо'
+	},
+	'technical-requirements': {
 		title: 'Технические условия'
 	},
-	'tekhnicheskiye-zadaniya-na-programmnyy-kompleks': {
+	'technical-specification': {
 		title: 'Техническое задание'
 	}
 }
