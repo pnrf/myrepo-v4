@@ -1,0 +1,34 @@
+import { FileTree } from 'nextra/components'
+
+# Структура проекта
+
+<FileTree>
+  <FileTree.Folder name="src" defaultOpen>
+		<FileTree.Folder name="app" defaultOpen>
+			<FileTree.Folder name="[[..mdxPath]]" defaultOpen>
+			</FileTree.Folder>
+			<FileTree.File name="layout.jsx" />
+  	</FileTree.Folder>
+		<FileTree.Folder name="components" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.Folder name="content" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.Folder name="images" defaultOpen>
+  	</FileTree.Folder>
+		<FileTree.File name="mdx-components.js" />
+  </FileTree.Folder>
+	<FileTree.File name=".gitignore" />
+	<FileTree.File name="LICENCE" />
+	<FileTree.File name="next.config.mjs" />
+	<FileTree.File name="package-lock.json" />
+	<FileTree.File name="package.json" />
+	<FileTree.File name="README.md" />
+</FileTree>
+
+*Примечание: папки кликабельны.*
+
+Ключевые файлы проекта:
+* Конфигурационные файлы: `.gitignore`, `next.config.mjs`
+* Менеджер пакетов: `package.json`, `package-lock.json`
+* Документация: `README.md`
+* Исходный код находится в папке `src`

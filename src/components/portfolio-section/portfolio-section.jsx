@@ -27,7 +27,7 @@ export default function PortfolioSection() {
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/movies-explorer'>Веб-приложение Movies Explorer</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services'>ИИ-сервисы для лучевой диагностики</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/mis'>Информационная система медцентра</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/portfolio-website'>Сайт-портфолио Myrepo (на Nextra 4.x)</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/portfolio-website'>Сайт-портфолио "Мой репозиторий"</a></li>
 						</ul>
 						<a href='/portfolio'>Все продукты →</a>
 					</div>
