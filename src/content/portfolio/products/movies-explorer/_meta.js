@@ -1,3 +1,4 @@
 export default {
-	'about-project': 'О проекте'
+	'about-project': 'О проекте',
+	'quick-start': 'Быстрый старт'
 }
