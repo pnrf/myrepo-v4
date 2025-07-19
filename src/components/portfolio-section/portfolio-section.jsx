@@ -5,7 +5,58 @@ export default function PortfolioSection() {
 		<section className={styles['portfolio-section']}>
 			<h2 className={styles['portfolio-section__heading']}>Портфолио</h2>
 			<div className={styles['portfolio-section__container']}>
+
 				<div className={styles['portfolio-section__card']}>
+					<h3 className={styles['portfolio-section__card-title']}>Movies Explorer</h3>
+					<div className={styles['portfolio-section__card-content']}>
+						<ul className={styles['portfolio-section__card-list']}>
+							<p className={styles['portfolio-section__card-list-item']}>Веб-приложение с личным кабинетом для просмотра каталога фильмов:</p>
+							<br />
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/intro'>Описание приложения</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/intro'>Описание API</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div className={styles['portfolio-section__card']}>
+					<h3 className={styles['portfolio-section__card-title']}>ИИ-сервисы</h3>
+					<div className={styles['portfolio-section__card-content']}>
+						<ul className={styles['portfolio-section__card-list']}>
+							<p className={styles['portfolio-section__card-list-item']}>Сервисы искусственного интеллекта для лучевой диагностики:</p>
+							<br />
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/intro'>Описание сервиса</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/intro'>Примеры документов</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div className={styles['portfolio-section__card']}>
+					<h3 className={styles['portfolio-section__card-title']}>Инфосистема</h3>
+					<div className={styles['portfolio-section__card-content']}>
+						<ul className={styles['portfolio-section__card-list']}>
+							<p className={styles['portfolio-section__card-list-item']}>Комплексная информационная система медицинского центра:</p>
+							<br />
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/products/ai-services/intro'>Описание инфосистемы</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
+					<h3 className={`${styles['portfolio-section__card-title']} ${styles['portfolio-section__card-title_highlight']}`}>Мой репозиторий</h3>
+					<div className={styles['portfolio-section__card-content']}>
+						<ul className={styles['portfolio-section__card-list']}>
+							<p className={styles['portfolio-section__card-list-item']}>Сайт-портфолио технического писателя с базой знаний и блогом:</p>
+							<br />
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/products/ai-services/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/products/ai-services/intro'>Описание сайта</a></li>
+						</ul>
+					</div>
+				</div>
+
+				{/* <div className={styles['portfolio-section__card']}>
 					<h3 className={styles['portfolio-section__card-title']}>Документы</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
@@ -17,8 +68,8 @@ export default function PortfolioSection() {
 						</ul>
 						<a href='/portfolio'>Все документы →</a>
 					</div>
-				</div>
-				<div className={styles['portfolio-section__card']}>
+				</div> */}
+				{/* <div className={styles['portfolio-section__card']}>
 					<h3 className={styles['portfolio-section__card-title']}>Продукты</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
@@ -29,7 +80,7 @@ export default function PortfolioSection() {
 						</ul>
 						<a href='/portfolio'>Все продукты →</a>
 					</div>
-				</div>
+				</div> */}
 				{/* <div className={styles['portfolio-section__card']}>
 					<h3 className={styles['portfolio-section__card-title']}>Проекты</h3>
 					<div className={styles['portfolio-section__card-content']}>
@@ -40,8 +91,8 @@ export default function PortfolioSection() {
 						</ul>
 						<a href='/portfolio/projects'>Все проекты →</a>
 					</div>
-				</div>
-				<div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
+				</div> */}
+				{/* <div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
 					<h3 className={`${styles['portfolio-section__card-title']} ${styles['portfolio-section__card-title_highlight']}`}>База знаний</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
@@ -53,6 +104,7 @@ export default function PortfolioSection() {
 						<a href='/knowledge-base'>К содержанию →</a>
 					</div>
 				</div> */}
+
 			</div>
 		</section>
   )
