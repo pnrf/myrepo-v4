@@ -8,32 +8,42 @@ export default {
 			pagination: true
 		}
 	},
-	'---': {
-    type: 'separator'
+	'---products': {
+    type: 'separator',
+		title: 'Продукты'
   },
+	'movies-explorer': {
+		title: 'Movies Explorer'
+	},
+	'ai-services': {
+		title: 'ИИ-сервисы'
+	},
+	'mis': {
+		title: 'Инфосистема'
+	},
+	'portfolio-website': {
+		title: 'Мой репозиторий'
+	},
+	'---other': {
+    type: 'separator',
+		title: 'Прочее'
+  },
+	diagrams: {
+		title: 'Примеры схем',
+		theme: {
+			pagination: false
+		}
+	},
 	docs: {
 		title: 'Документы',
 		theme: {
 			pagination: true
 		}
 	},
-	products: {
-		title: 'Продукты',
-		theme: {
-			pagination: true
-		}
-	},
 	projects: {
-		display: 'hidden',
 		title: 'Проекты',
 		theme: {
 			pagination: false
 		}
 	},
-	diagrams: {
-		title: 'Схемы',
-		theme: {
-			pagination: false
-		}
-	}
 }

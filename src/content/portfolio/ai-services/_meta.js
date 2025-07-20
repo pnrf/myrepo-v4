@@ -1,17 +1,19 @@
 export default {
 	'project': {
     type: 'separator',
-		title: 'ПРОЕКТ'
+		title: 'О ПРОЕКТЕ'
   },
-	'about-project': 'О проекте',
-	'project-tasks': 'Задачи',
-	'documents': 'Документы',
-	'results': 'Результаты',
+	'about-project': 'Описание проекта',
+	'grant-tenders': 'Грантовые конкурсы',
+	'public-procurement': 'Госзакупки',
+	'registration-mintsifry': 'Минцифры',
+	'registration-roszdravnadzor': 'Росздравнадзор',
+	'registration-rospatent': 'Роспатент',
 	'ai-service': {
     type: 'separator',
 		title: 'ИИ-СЕРВИС'
   },
-	'intro': 'О сервисе',
+	'intro': 'Описание ИИ-сервиса',
 	'annotation': 'Аннотация',
 	'relevance': 'Актуальность',
 	'standard': 'Стандарт',
