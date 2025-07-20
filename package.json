@@ -2,7 +2,9 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"audit": "npm audit",
+		"audit fix": "npm audit fix"
 	},
   "dependencies": {
     "next": "^15.2.5",
