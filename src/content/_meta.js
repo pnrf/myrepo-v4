@@ -31,11 +31,6 @@ export default {
 		title: 'Блог',
 		type: 'page'
 	},
-	faq: {
-		title: 'FAQ',
-		type: 'page',
-		display: 'hidden'
-	},
 	'terms-of-use': {
 		title: 'Правила сайта',
 		type: 'page',

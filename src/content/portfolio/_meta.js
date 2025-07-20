@@ -33,11 +33,5 @@ export default {
 		theme: {
 			pagination: false
 		}
-	},
-	docs: {
-		title: 'Документы',
-		theme: {
-			pagination: true
-		}
 	}
 }
