@@ -26,7 +26,7 @@ export default {
 	},
 	'---other': {
     type: 'separator',
-		title: 'Прочее'
+		title: 'Документы'
   },
 	diagrams: {
 		title: 'Примеры схем',
@@ -39,11 +39,5 @@ export default {
 		theme: {
 			pagination: true
 		}
-	},
-	projects: {
-		title: 'Проекты',
-		theme: {
-			pagination: false
-		}
-	},
+	}
 }

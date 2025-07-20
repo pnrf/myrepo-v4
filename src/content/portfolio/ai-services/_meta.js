@@ -4,11 +4,6 @@ export default {
 		title: 'О ПРОЕКТЕ'
   },
 	'about-project': 'Описание проекта',
-	'grant-tenders': 'Грантовые конкурсы',
-	'public-procurement': 'Госзакупки',
-	'registration-mintsifry': 'Минцифры',
-	'registration-roszdravnadzor': 'Росздравнадзор',
-	'registration-rospatent': 'Роспатент',
 	'ai-service': {
     type: 'separator',
 		title: 'ИИ-СЕРВИС'
