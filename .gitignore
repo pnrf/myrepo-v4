@@ -9,4 +9,13 @@ out/
 .next/
 .turbo/
 .vercel
+.build/
+.vscode/
 _pagefind/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
