@@ -10,6 +10,7 @@ export default {
   },
 	'intro': 'Описание приложения',
 	'quick-start': 'Быстрый старт',
+	'architecture': 'Архитектура приложения',
 	'frontend': 'Фронтенд',
 	'backend': 'Бэкенд',
 	'functionality': 'Функциональность'
