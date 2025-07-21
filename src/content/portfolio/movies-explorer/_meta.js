@@ -13,5 +13,6 @@ export default {
 	'architecture': 'Архитектура приложения',
 	'frontend': 'Фронтенд',
 	'backend': 'Бэкенд',
+	'database': 'База данных',
 	'functionality': 'Функциональность'
 }

@@ -8,7 +8,7 @@ export default {
     type: 'separator',
 		title: 'ИИ-СЕРВИС'
   },
-	'intro': 'Описание ИИ-сервиса',
+	'intro': 'Описание сервиса',
 	'annotation': 'Аннотация',
 	'relevance': 'Актуальность',
 	'standard': 'Стандарт',

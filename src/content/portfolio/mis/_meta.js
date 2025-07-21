@@ -8,5 +8,7 @@ export default {
     type: 'separator',
 		title: 'ИНФОСИСТЕМА'
   },
-	'intro': 'Описание инфосистемы'
+	'intro': 'Описание системы',
+	'architecture': 'ИТ архитектура',
+	'normatives': 'Нормативы'
 }
