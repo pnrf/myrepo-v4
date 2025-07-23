@@ -1,0 +1,21 @@
+# Как установить время на MacOS вручную
+
+Все операции выполняются в Терминале (консоли).
+Пример для Москвы.
+
+## Шаг 1. Узнать все часовые пояса
+
+```bash
+sudo systemsetup -listtimezones | more
+```
+
+## Шаг 2. Установить часовой пояс
+```bash
+sudo systemsetup -settimezone Europe/Moscow
+```
+
+## Шаг 3. Проверить часовой пояс
+
+```bash
+sudo systemsetup -gettimezone
+```

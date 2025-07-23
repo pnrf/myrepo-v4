@@ -1,4 +1,5 @@
 export default {
+	'how-to-set-time-on-macos-manually': 'Как установить время на MacOS вручную',
 	'how-to-automate-technical-writer-work': {
 		title: 'Как автоматизировать работу техписателя'
 	},
