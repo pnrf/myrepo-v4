@@ -9,6 +9,14 @@ export default {
 		title: 'ИНФОСИСТЕМА'
   },
 	'intro': 'Описание системы',
-	'architecture': 'ИТ архитектура',
-	'normatives': 'Нормативы'
+	'abbreviations': 'Термины и сокращения',
+	'architecture': 'ИТ-архитектура',
+	'normatives': 'Нормативные акты',
+	'users': 'Требования к персоналу',
+	'functions': 'Техническое задание',
+	'data': 'Данные',
+	'integrations': 'Интеграция',
+	'subsystem-mis': 'МИС',
+	'lis': 'ЛИС',
+	'ris': 'РИС'
 }
