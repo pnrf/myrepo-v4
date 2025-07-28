@@ -10,10 +10,11 @@ export default function PortfolioSection() {
 					<h3 className={styles['portfolio-section__card-title']}>Инфосистема</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<p className={styles['portfolio-section__card-list-item']}>Комплексная информационная система медицинского центра:</p>
+							<p className={styles['portfolio-section__card-list-item']}>Комплексная информационная система медицинского центра</p>
 							<br />
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/mis/about-project'>Описание проекта</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/mis/intro'>Описание инфосистемы</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/mis/normatives'>Перечень нормативов</a></li>
 						</ul>
 					</div>
 				</div>
@@ -22,36 +23,37 @@ export default function PortfolioSection() {
 					<h3 className={styles['portfolio-section__card-title']}>ИИ-сервисы</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<p className={styles['portfolio-section__card-list-item']}>Сервисы искусственного интеллекта для лучевой диагностики:</p>
+							<p className={styles['portfolio-section__card-list-item']}>Сервисы искусственного интеллекта для лучевой диагностики</p>
 							<br />
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/about-project'>Описание проекта</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/intro'>Описание ИИ-сервиса</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/documents'>Примеры документов</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/documents-list'>Примеры документов</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div className={styles['portfolio-section__card']}>
-					<h3 className={styles['portfolio-section__card-title']}>Movies Explorer</h3>
+					<h3 className={styles['portfolio-section__card-title']}>Мой репозиторий</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<p className={styles['portfolio-section__card-list-item']}>Веб-приложение с личным кабинетом для просмотра каталога фильмов:</p>
+							<p className={styles['portfolio-section__card-list-item']}>Сайт-портфолио технического писателя с базой знаний и блогом</p>
 							<br />
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/movies-explorer/about-project'>Описание проекта</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/movies-explorer/intro'>Описание веб-приложения</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/movies-explorer/api'>Описание API</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/portfolio-website/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/portfolio-website/intro'>Описание сайта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/portfolio-website/technical-specification'>Техническое задание</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div className={`${styles['portfolio-section__card']} ${styles['portfolio-section__card_highlight']}`}>
-					<h3 className={`${styles['portfolio-section__card-title']} ${styles['portfolio-section__card-title_highlight']}`}>Мой репозиторий</h3>
+					<h3 className={`${styles['portfolio-section__card-title']} ${styles['portfolio-section__card-title_highlight']}`}>Movies Explorer</h3>
 					<div className={styles['portfolio-section__card-content']}>
 						<ul className={styles['portfolio-section__card-list']}>
-							<p className={styles['portfolio-section__card-list-item']}>Сайт-портфолио технического писателя с базой знаний и блогом:</p>
+							<p className={styles['portfolio-section__card-list-item']}>Веб-приложение с личным кабинетом для просмотра каталога фильмов</p>
 							<br />
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/portfolio-website/about-project'>Описание проекта</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/portfolio-website/intro'>Описание сайта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/about-project'>Описание проекта</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/intro'>Описание веб-приложения</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/api-specification'>Описание API</a></li>
 						</ul>
 					</div>
 				</div>

@@ -12,17 +12,17 @@ export default {
     type: 'separator',
 		title: 'Продукты'
   },
-	'movies-explorer': {
-		title: 'Movies Explorer'
+	'mis': {
+		title: 'Инфосистема'
 	},
 	'ai-services': {
 		title: 'ИИ-сервисы'
 	},
-	'mis': {
-		title: 'Инфосистема'
-	},
 	'portfolio-website': {
 		title: 'Мой репозиторий'
+	},
+	'movies-explorer': {
+		title: 'Movies Explorer'
 	},
 	'---other': {
     type: 'separator',

@@ -1,14 +1,10 @@
 export default {
-	'project': {
-    type: 'separator',
-		title: 'О ПРОЕКТЕ'
-  },
 	'about-project': 'Описание проекта',
-	'web-app': {
-    type: 'separator',
-		title: 'ВЕБ-ПРИЛОЖЕНИЕ'
-  },
 	'intro': 'Описание приложения',
+	'api-specification': 'Описание API',
+	'web-app': {
+    type: 'separator'
+  },
 	'quick-start': 'Быстрый старт',
 	'architecture': 'Архитектура приложения',
 	'frontend': 'Фронтенд',
