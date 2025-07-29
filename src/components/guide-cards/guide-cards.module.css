@@ -70,14 +70,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	/* align-items: center; */
-	gap: 40px;
+	/* gap: 20px; */
 	width: 100%;
 	max-width: 100%;
 	padding: 10px;
 }
 
 .list {
-	flex-basis: 200px;
+	flex-basis: 150px;
 	flex-grow: 1;
 	min-height: 200px;
 	/* border: 1px dashed #000; */

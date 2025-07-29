@@ -1,17 +1,27 @@
 export default {
 	'api': 'API',
 	'bash': 'Bash',
+	'can-i-include': 'Can I include',
+	'can-i-use': 'Can I use',
+	'confluence': 'Confluence',
 	'css': 'CSS',
 	'expressjs': 'Express.js',
+	'figma': 'Figma',
 	'git': 'Git',
+	'github': 'Github',
 	'html': 'HTML',
 	'javascript': 'Javascript',
+	'jira': 'Jira',
 	'json': 'JSON',
 	'markdown': 'Markdown',
 	'nextjs': 'Next.js',
 	'nextra': 'Nextra',
 	'nodejs': 'Node.js',
+	'obsidian': 'Obsidian',
 	'reactjs': 'React.js',
+	'sphinx': 'Sphinx',
+	'storybook': 'Storybook.js',
 	'typescript': 'Typescript',
-	'xml': 'XML'
+	'vs-code': 'Visual Studio Code',
+	'xml': 'XML'	
 }

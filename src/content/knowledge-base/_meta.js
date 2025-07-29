@@ -11,6 +11,5 @@ export default {
 	},
 	'concepts': 'Концепции',
 	'standards': 'Нормативы',
-	'services': 'Сервисы',
 	'technologies': 'Технологии'
 }

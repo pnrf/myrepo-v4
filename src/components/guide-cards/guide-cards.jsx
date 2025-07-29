@@ -74,34 +74,34 @@ export default function GuideCards() {
 					<p className={styles.subtitle}>ПО, фреймворки, языки</p>
 					<div className={styles.list_container}>
 						<ul className={styles.list}>
-							<li><a href="/knowledge-base/services/can-i-include">Can I include</a></li>
-							<li><a href="/knowledge-base/services/can-i-use">Can I use</a></li>
-							<li><a href="/knowledge-base/services/confluence">Confluence</a></li>
-							<li><a href="/knowledge-base/services/figma">Figma</a></li>
-							<li><a href="/knowledge-base/services/github">Github</a></li>
-							<li><a href="/knowledge-base/services/jira">Jira</a></li>
-							<li><a href="/knowledge-base/services/obsidian">Obsidian</a></li>
-							<li><a href="/knowledge-base/services/sphinx">Sphinx</a></li>
-							<li><a href="/knowledge-base/services/storybook">Storybook</a></li>
-							<li><a href="/knowledge-base/services/vs-code">VS Code</a></li>
-						</ul>
-						<ul className={styles.list}>
 							<li><a href="/knowledge-base/technologies/api">API</a></li>
 							<li><a href="/knowledge-base/technologies/bash">Bash</a></li>
+							<li><a href="/knowledge-base/technologies/can-i-include">Can I include</a></li>
+							<li><a href="/knowledge-base/technologies/can-i-use">Can I use</a></li>
+							<li><a href="/knowledge-base/technologies/confluence">Confluence</a></li>
 							<li><a href="/knowledge-base/technologies/css">CSS</a></li>
 							<li><a href="/knowledge-base/technologies/expressjs">Express.js</a></li>
+							<li><a href="/knowledge-base/technologies/figma">Figma</a></li>
 							<li><a href="/knowledge-base/technologies/git">Git</a></li>
+							<li><a href="/knowledge-base/technologies/github">Github</a></li>
+						</ul>
+						<ul className={styles.list}>
 							<li><a href="/knowledge-base/technologies/html">HTML</a></li>
 							<li><a href="/knowledge-base/technologies/javascript">JavaScript</a></li>
+							<li><a href="/knowledge-base/technologies/jira">Jira</a></li>
 							<li><a href="/knowledge-base/technologies/json">JSON</a></li>
 							<li><a href="/knowledge-base/technologies/markdown">Markdown</a></li>
 							<li><a href="/knowledge-base/technologies/nextjs">Next.js</a></li>
-						</ul>
-						<ul className={styles.list}>
 							<li><a href="/knowledge-base/technologies/nextra">Nextra</a></li>
 							<li><a href="/knowledge-base/technologies/nodejs">Node.js</a></li>
+							<li><a href="/knowledge-base/technologies/obsidian">Obsidian</a></li>
 							<li><a href="/knowledge-base/technologies/reactjs">React.js</a></li>
+						</ul>
+						<ul className={styles.list}>
+							<li><a href="/knowledge-base/technologies/sphinx">Sphinx</a></li>
+							<li><a href="/knowledge-base/technologies/storybook">Storybook</a></li>
 							<li><a href="/knowledge-base/technologies/typescript">TypeScript</a></li>
+							<li><a href="/knowledge-base/technologies/vs-code">VS Code</a></li>
 							<li><a href="/knowledge-base/technologies/xml">XML</a></li>
 						</ul>
 					</div>
