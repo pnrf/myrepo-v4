@@ -10,7 +10,7 @@ export default function HeroSection() {
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<div className={styles['hero-section__text-block']}>
 							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года.</p>
-							<p className={styles['hero-section__text']}>Документирую программные продукты, создаю&nbsp;контент для&nbsp;баз знаний, верстаю сайты&nbsp;и&nbsp;UI-компоненты.</p>
+							<p className={styles['hero-section__text']}>Разрабатываю техническую и юридическую документацию по&nbsp;программным продуктам. Создаю контент для&nbsp;баз знаний.</p>
 						</div>
 					</div>
 					<div className={styles['hero-section__buttons']}>
