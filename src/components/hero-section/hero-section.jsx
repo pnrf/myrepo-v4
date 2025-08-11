@@ -9,7 +9,7 @@ export default function HeroSection() {
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<div className={styles['hero-section__text-block']}>
-							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года. Тимлид (3 чел).</p>
+							<p className={styles['hero-section__text']}>Работаю в&nbsp;ИТ с&nbsp;2023&nbsp;года. Тимлид (4 чел).</p>
 							<p className={styles['hero-section__text']}>Разрабатываю техническую и юридическую документацию по&nbsp;программным продуктам. Создаю контент для&nbsp;баз знаний.</p>
 						</div>
 					</div>
