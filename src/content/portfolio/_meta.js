@@ -10,7 +10,7 @@ export default {
 	},
 	'---products': {
     type: 'separator',
-		title: 'Продукты'
+		title: 'Проекты'
   },
 	'mis': {
 		title: 'Инфосистема'
@@ -26,10 +26,10 @@ export default {
 	},
 	'---other': {
     type: 'separator',
-		title: 'Документы'
+		title: 'Подборки'
   },
 	diagrams: {
-		title: 'Примеры схем',
+		title: 'Схемы',
 		theme: {
 			pagination: false
 		}

@@ -27,7 +27,7 @@ export default function PortfolioSection() {
 							<br />
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/about-project'>Описание проекта</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/intro'>Описание ИИ-сервиса</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/documents-list'>Примеры документов</a></li>
+							<li className={`${styles['portfolio-section__card-list-item']} ${styles['portfolio-section__card-list-item_highlight']}`}><a className={styles['portfolio-section__link']} href='/portfolio/ai-services/documents-list'>Примеры документов</a></li>
 						</ul>
 					</div>
 				</div>
@@ -53,7 +53,7 @@ export default function PortfolioSection() {
 							<br />
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/about-project'>Описание проекта</a></li>
 							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/intro'>Описание веб-приложения</a></li>
-							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/api-specification'>Описание API</a></li>
+							<li className={styles['portfolio-section__card-list-item']}><a className={styles['portfolio-section__link-highlight']} href='/portfolio/movies-explorer/api-specification'>Описание REST API</a></li>
 						</ul>
 					</div>
 				</div>

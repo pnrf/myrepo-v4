@@ -68,6 +68,10 @@
 	padding-bottom: 4px;
 }
 
+.portfolio-section__card-list-item_highlight {
+	font-weight: 600;
+}
+
 .portfolio-section__link {
 	border-bottom: 1px dashed #647F94;
 }
