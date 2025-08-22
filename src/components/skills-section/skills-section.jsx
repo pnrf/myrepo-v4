@@ -7,7 +7,7 @@ export default function SkillsSection() {
 			<div className={styles['skills-section__container']}>
 				<div className={styles['skills-section__card']}>
 					<ul className={styles['skills-section__card-list']}>
-						<li className={styles['skills-section__card-list-item']}>Документирование программных продуктов</li>
+						<li className={styles['skills-section__card-list-item']}>Документирование программ и систем</li>
 						<li className={styles['skills-section__card-list-item']}>Создание контента для баз знаний (wiki)</li>
 						<li className={styles['skills-section__card-list-item']}>Составление юридических документов</li>
 						<li className={styles['skills-section__card-list-item']}>Вёрстка и публикация контента в сети</li>

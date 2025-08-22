@@ -26,10 +26,12 @@ export default {
 	},
 	'---other': {
     type: 'separator',
-		title: 'Подборки'
+		title: 'Документы'
   },
+	'tech-docs': 'Технические документы',
+	'legal-docs': 'Юридические документы',
 	diagrams: {
-		title: 'Схемы',
+		title: 'Примеры схем',
 		theme: {
 			pagination: false
 		}
