@@ -11,8 +11,8 @@ export default function MainPage() {
 		<div className={styles['main-page']}>
 			<HeroSection />
 			<SkillsSection />
-			<PortfolioSection />
 			<DocsSection />
+			<PortfolioSection />
 			<BlogSection />
 		</div>
 	)
