@@ -8,6 +8,18 @@ export default {
 			pagination: true
 		}
 	},
+		'---other': {
+    type: 'separator',
+		title: 'Документы'
+  },
+	'tech-docs': 'Технические документы',
+	'legal-docs': 'Юридические документы',
+	diagrams: {
+		title: 'Примеры схем',
+		theme: {
+			pagination: false
+		}
+	},
 	'---products': {
     type: 'separator',
 		title: 'Проекты'
@@ -23,17 +35,5 @@ export default {
 	},
 	'movies-explorer': {
 		title: 'Movies Explorer'
-	},
-	'---other': {
-    type: 'separator',
-		title: 'Документы'
-  },
-	'tech-docs': 'Технические документы',
-	'legal-docs': 'Юридические документы',
-	diagrams: {
-		title: 'Примеры схем',
-		theme: {
-			pagination: false
-		}
 	}
 }
