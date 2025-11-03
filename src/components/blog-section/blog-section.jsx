@@ -3,7 +3,7 @@ import styles from './blog-section.module.css'
 export default function BlogSection() {
   return (
 		<section className={styles['blog-section']}>
-			<h2 className={styles['blog-section__heading']}>Блог</h2>
+			<h2 className={styles['blog-section__heading']}>Техноблог</h2>
 			<div className={styles['blog-section__container']}>
 				<div className={styles['blog-section__card']}>
 					<ul className={styles['blog-section__card-list']}>

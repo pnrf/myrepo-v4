@@ -36,7 +36,7 @@ export default async function RootLayout({ children }) {
       </Head>
       <body>
         <Layout
-          banner={<Banner storageKey="some-key">⚙️ Активно работаю над созданием контента и документами для портфолио</Banner>}
+          // banner={<Banner storageKey="some-key">⚙️ Активно работаю над созданием контента и документами для портфолио</Banner>}
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/pnrf/myrepo-v4"

@@ -24,6 +24,8 @@ export default {
     type: 'separator',
 		title: 'Проекты'
   },
+	'corp-wiki': 'Корпоративная wiki',
+	'llm': 'Large Language Model',
 	'mis': {
 		title: 'Инфосистема'
 	},
