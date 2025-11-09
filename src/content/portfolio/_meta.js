@@ -24,18 +24,17 @@ export default {
     type: 'separator',
 		title: 'Проекты'
   },
-	'corp-wiki': 'Корпоративная wiki',
-	'llm': 'Large Language Model',
-	'mis': {
-		title: 'Инфосистема'
-	},
-	'ai-services': {
-		title: 'ИИ-сервисы'
-	},
+	'docs-on-demand': 'Документы на заказ',
+	'docs-as-code': 'Docs-As-Code',
+	'ui-components': 'UI-компоненты',
 	'portfolio-website': {
 		title: 'Мой репозиторий'
 	},
+	'second-brain': 'Второй мозг',
+	'book-of-stories': 'Сборник историй',
 	'movies-explorer': {
 		title: 'Movies Explorer'
-	}
+	},
+	'draft-laws': 'Законопроекты',
+	'legal-practice': 'Юридическая практика'
 }
