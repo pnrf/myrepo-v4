@@ -9,7 +9,7 @@ export default function HeroSection() {
 						<h1 className={styles['hero-section__title']}>Юрий Панкратов</h1>
 						<h2 className={styles['hero-section__subtitle']}>технический писатель</h2>
 						<div className={styles['hero-section__text-block']}>
-							<p className={styles['hero-section__text']}>C 2023 работаю <a className={styles['hero-section__link']} href="https://www.myrepo.ru/about#опыт-работы">в ИТ</a>. С 2025 – в <a className={styles['hero-section__link']} href="https://www.hse.ru/staff/pankratov" target="_blank">НИУ ВШЭ</a></p>
+							<p className={styles['hero-section__text']}>C 2023 <a className={styles['hero-section__link']} href="https://www.myrepo.ru/about#опыт-работы">работаю в ИТ</a>, с 2025 – в <a className={styles['hero-section__link']} href="https://www.hse.ru/staff/pankratov" target="_blank">НИУ ВШЭ</a> ↗</p>
 							<p className={styles['hero-section__text']}>Разрабатываю документацию и базы знаний по&nbsp;программным продуктам. Автоматизирую рутинные процессы в концепции Docs-As-Code.</p>
 						</div>
 					</div>

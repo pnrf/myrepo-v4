@@ -5,10 +5,10 @@ export default {
 		type: 'separator'
 	},
 	articles: {
-		title: 'ЧИСТОВИК'
+		title: 'Избранные статьи'
 	},
 	notes: {
-		title: 'ЧЕРНОВИК',
+		title: 'Избранные заметки',
 		theme: {
 			pagination: false
 		}
