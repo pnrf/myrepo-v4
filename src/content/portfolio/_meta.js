@@ -26,6 +26,7 @@ export default {
   },
 	'docs-on-demand': 'Документы на заказ',
 	'docs-as-code': 'Docs-As-Code',
+	'python-study': 'Изучение Python',
 	'ui-components': 'UI-компоненты',
 	'portfolio-website': {
 		title: 'Мой репозиторий'

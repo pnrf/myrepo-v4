@@ -42,6 +42,13 @@ export default function PortfolioSection() {
 				</article>
 
 				<article className={styles['portfolio-section__card']}>
+					<a href='/portfolio/python-study'>
+						<h3 className={styles['portfolio-section__card-title']}>Изучение Python</h3>
+						<p className={styles['portfolio-section__card-list-item']}>Осваиваю Python и основные библиотеки для сбора, анализа и визуализации данных</p>
+					</a>
+				</article>
+
+				<article className={styles['portfolio-section__card']}>
 					<a href='/portfolio/book-of-stories'>
 						<h3 className={styles['portfolio-section__card-title']}>Сборник историй</h3>
 						<p className={styles['portfolio-section__card-list-item']}>Оформил сборник историй технических писателей "Как войти в профессию"</p>
